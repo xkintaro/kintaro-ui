@@ -1,8 +1,8 @@
-import KintaroButton3 from './KintaroButton3';
-import KintaroButtonSuccess1 from './KintaroButtonSuccess1';
-import KintaroButtonClose from './KintaroButtonClose';
-import KintaroDescription from './KintaroDescription';
-import KintaroTitle2 from './KintaroTitle2';
+import KintaroButton3 from '../kintaroButton3/KintaroButton3';
+import KintaroButtonSuccess1 from '../kintaroButtonSuccess1/KintaroButtonSuccess1';
+import KintaroButtonClose from '../kintaroButtonClose/KintaroButtonClose';
+import KintaroDescription from '../kintaroDescription/KintaroDescription';
+import KintaroTitle2 from '../kintaroTitle2/KintaroTitle2';
 import './kintaroModal.css'
 
 const KintaroModal = ({
