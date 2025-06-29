@@ -1,7 +1,7 @@
 // 🔤 TextBox'lar
-export { default as KintaroTextBox1 } from './kintaroTextbox1/KintaroTextBox1';
-export { default as KintaroTextBox2 } from './kintaroTextbox2/KintaroTextBox2';
-export { default as KintaroTextBox3 } from './kintaroTextbox3/KintaroTextBox3';
+export { default as KintaroTextBox1 } from './kintaroTextBox1/KintaroTextBox1';
+export { default as KintaroTextBox2 } from './kintaroTextBox2/KintaroTextBox2';
+export { default as KintaroTextBox3 } from './kintaroTextBox3/KintaroTextBox3';
 
 // 🔘 Button'lar
 export { default as KintaroButton1 } from './kintaroButton1/KintaroButton1';
