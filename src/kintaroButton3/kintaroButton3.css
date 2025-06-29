@@ -1,0 +1,11 @@
+.kintaro-button-3 {
+    color: var(--kintaro-text-color-1);
+    font-size: var(--kintaro-font-md);
+    text-shadow: var(--kintaro-text-shadow);
+    font-weight: var(--kintaro-font-weight);
+    padding: 0;
+}
+
+.kintaro-button-3:hover {
+    color: var(--kintaro-hover);
+}

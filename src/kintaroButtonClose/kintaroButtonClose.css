@@ -1,0 +1,9 @@
+.kintaro-close-button {
+    color: var(--kintaro-text-color-2);
+    font-size: var(--kintaro-font-xl);
+    padding: 0;
+}
+
+.kintaro-close-button:hover {
+    color: var(--kintaro-text-color-1);
+}

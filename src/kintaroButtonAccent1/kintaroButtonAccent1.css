@@ -1,0 +1,7 @@
+.kintaro-button-accent-1 {
+    background: var(--kintaro-accent-color-1);
+}
+
+.kintaro-button-accent-1:hover {
+    background: var(--kintaro-accent-color-1-transparent);
+}

@@ -1,0 +1,7 @@
+.kintaro-button-1 {
+    background: var(--kintaro-input-color);
+}
+
+.kintaro-button-1:hover {
+    background: var(--kintaro-input-color-hover);
+}

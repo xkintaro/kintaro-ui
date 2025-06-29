@@ -1,0 +1,21 @@
+.kintaro-txtbox-1-textbox {
+    font-size: var(--kintaro-font-md);
+    color: var(--kintaro-text-color-1);
+    border-radius: var(--kintaro-border-radius-1);
+    background-color: var(--kintaro-input-color);
+    resize: vertical;
+    outline: none;
+    border: none;
+    z-index: 2;
+    height: 60px;
+    padding: 0px 15px;
+    width: 100%;
+}
+
+.kintaro-txtbox-1-textbox:focus {
+    box-shadow: var(--kintaro-box-shadow);
+}
+
+.kintaro-txtbox-1-textbox::placeholder {
+    color: var(--kintaro-text-color-2);
+}
