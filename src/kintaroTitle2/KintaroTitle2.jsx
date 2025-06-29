@@ -1,10 +1,16 @@
 import './kintaroTitle2.css'
 
-const KintaroTitle2 = ({ title }) => {
+const KintaroTitle2 = ({ title, color }) => {
+    const style = color ? { color: color } : {};
+    
     return (
-        <h2 className="kintaro-title-reset kintaro-title-2" title={title}>
+        <h1 
+            className="kintaro-title-reset kintaro-title-2" 
+            title={title}
+            style={style}
+        >
             {title}
-        </h2>
+        </h1>
     );
 };
 
