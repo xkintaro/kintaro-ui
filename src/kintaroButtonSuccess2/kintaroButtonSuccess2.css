@@ -1,3 +1,5 @@
+@import url("../root.css");
+
 .kintaro-success-button-2 {
     background: var(--kintaro-success-color);
     color: var(--kintaro-text-color-1);

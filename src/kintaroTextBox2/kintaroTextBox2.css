@@ -1,8 +1,10 @@
+@import url("../root.css");
+
 .kintaro-txtbox-2-textbox {
     font-size: var(--kintaro-font-md);
     color: var(--kintaro-text-color-1);
     border-radius: var(--kintaro-border-radius-1);
-    background-color: transparent;
+    background: transparent;
     resize: vertical;
     outline: none;
     border: none;
