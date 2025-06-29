@@ -1,19 +1,12 @@
-import KintaroButton3 from '../kintaroButton3/KintaroButton3';
-import KintaroButtonSuccess1 from '../kintaroButtonSuccess1/KintaroButtonSuccess1';
 import KintaroButtonClose from '../kintaroButtonClose/KintaroButtonClose';
-import KintaroDescription from '../kintaroDescription/KintaroDescription';
 import KintaroTitle2 from '../kintaroTitle2/KintaroTitle2';
 import './kintaroModal.css'
 
 const KintaroModal = ({
+    children,
     isOpen = false,
     onClose,
     title,
-    message,
-    confirmText,
-    cancelText,
-    onConfirm,
-    showCancel = true
 }) => {
 
     if (!isOpen) return null;
@@ -37,30 +30,9 @@ const KintaroModal = ({
                 </div>
 
                 <div className="kintaro-modal-content">
-                    <KintaroDescription
-                        text={message}
-                        showToggleButton={true}
-                    />
+                    {children}
                 </div>
 
-                <div className="kintaro-modal-footer">
-
-                    {showCancel && (
-                        <KintaroButton3
-                            title={cancelText}
-                            onClick={onClose}
-                        />
-                    )}
-
-                    <KintaroButtonSuccess1
-                        onClick={() => {
-                            onConfirm();
-                            onClose();
-                        }}
-                        title={confirmText}
-                    />
-
-                </div>
             </div>
         </div >
     );

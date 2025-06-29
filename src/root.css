@@ -57,6 +57,8 @@
   --kintaro-border-radius-1: 10px;
 
   --kintaro-animation: kintaro-animation 0.3s ease-out;
+
+  --popup-z-index: 999;
 }
 
 @keyframes kintaro-animation {

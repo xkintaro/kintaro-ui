@@ -33,7 +33,7 @@
 }
 
 .kintaro-modal-header {
-    padding: 1rem;
+    padding: var(--kintaro-gap-sm);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,13 +41,13 @@
 }
 
 .kintaro-modal-content {
-    padding: 1rem;
+    padding: var(--kintaro-gap-sm);
 }
 
 .kintaro-modal-footer {
     display: flex;
     justify-content: flex-end;
     gap: var(--kintaro-gap-sm);
-    padding: 1rem;
+    padding: var(--kintaro-gap-sm);
     margin-top: var(--kintaro-gap-sm);
 }
