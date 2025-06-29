@@ -1,7 +1,0 @@
-.kintaro-success-button-1 {
-    background: var(--kintaro-success-color);
-}
-
-.kintaro-success-button-1:hover {
-    background: var(--kintaro-success-color-transparent);
-}
