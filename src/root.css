@@ -136,11 +136,3 @@ body {
 }
 
 /**********kintaro-floating-layout-end**********/
-
-.kintaro-app {
-  padding: 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 1.5rem;
-}
