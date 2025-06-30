@@ -31,3 +31,4 @@ export { default as KintaroTitle3 } from './kintaroTitle3/KintaroTitle3';
 export { default as KintaroFooter } from './kintaroFooter/KintaroFooter';
 export { default as KintaroModal } from './kintaroModal/KintaroModal';
 export { default as KintaroDescription } from './kintaroDescription/KintaroDescription';
+export { default as KintaroDivider1 } from './kintaroDivider1/KintaroDivider1';
