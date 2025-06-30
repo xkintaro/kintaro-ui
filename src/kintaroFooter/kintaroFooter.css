@@ -5,6 +5,7 @@
     background: radial-gradient(circle at center, hsla(0, 0%, 100%, .05) 1px, transparent 0) 0 0 /8px 8px, linear-gradient(90deg, hsla(0, 0%, 100%, .05), transparent);
     background-color: rgb(0, 0, 0, 0.9);
     gap: var(--kintaro-gap-xl);
+    width: 100%;
 }
 
 .kintaro-footer-header {
