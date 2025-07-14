@@ -7,5 +7,5 @@
 }
 
 .kintaro-button-4:hover {
-    color: var(--kintaro-hover);
+    color: var(--kintaro-hover) !important;
 }

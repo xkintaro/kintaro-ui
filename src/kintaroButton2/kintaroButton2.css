@@ -3,5 +3,5 @@
 }
 
 .kintaro-button-2:hover {
-    background: var(--kintaro-input-color-hover);
+    border: 1px solid var(--kintaro-hover) !important;
 }

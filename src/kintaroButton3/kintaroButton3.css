@@ -8,5 +8,5 @@
 }
 
 .kintaro-button-3:hover {
-    background: var(--kintaro-input-color-hover);
+    background: var(--kintaro-hover) !important;
 }

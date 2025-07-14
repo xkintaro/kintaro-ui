@@ -20,7 +20,6 @@
   --kintaro-border: rgb(37, 37, 37);
 
   --kintaro-input-color: rgb(46, 47, 51);
-  --kintaro-input-color-hover: rgb(77, 77, 77);
 
   /* Accent Colors */
   --kintaro-accent-color-1: rgb(90, 150, 250);
@@ -49,6 +48,7 @@
   --kintaro-gap-md: clamp(0.75rem, 2vw, 1.5rem);
   --kintaro-gap-lg: clamp(1rem, 3vw, 2rem);
   --kintaro-gap-xl: clamp(1.5rem, 4vw, 3rem);
+  --kintaro-gap-xxl: clamp(2rem, 5vw, 4rem);
 
   --kintaro-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   --kintaro-text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);

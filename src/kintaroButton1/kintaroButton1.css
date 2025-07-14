@@ -2,12 +2,6 @@
     background: var(--kintaro-input-color);
 }
 
-/*
 .kintaro-button-1:hover {
-    background: var(--kintaro-input-color-hover);
-}
-*/
-
-.kintaro-button-1:hover {
-    background: var(--hover-background) !important;
+    background: var(--kintaro-hover) !important;
 }
