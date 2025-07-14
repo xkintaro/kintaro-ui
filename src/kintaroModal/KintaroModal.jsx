@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import KintaroButtonClose from '../kintaroButtonClose/KintaroButtonClose';
 import KintaroTitle2 from '../kintaroTitle2/KintaroTitle2';
 import './kintaroModal.css'
