@@ -3,7 +3,7 @@
 }
 
 .kintaro-button-1:hover {
-    background: var(--kintaro-custom-hover, var(--kintaro-hover)) !important;
+    
     filter: brightness(0.70);   
 
 }
