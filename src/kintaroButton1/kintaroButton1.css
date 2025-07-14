@@ -9,5 +9,5 @@
 */
 
 .kintaro-button-1:hover {
-    background: var(--hover-background);
+    background: var(--hover-background) !important;
 }
