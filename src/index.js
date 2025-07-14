@@ -11,14 +11,6 @@ export { default as KintaroButton4 } from './kintaroButton4/KintaroButton4';
 
 export { default as KintaroButtonClose } from './kintaroButtonClose/KintaroButtonClose';
 
-export { default as KintaroButtonError1 } from './kintaroButtonError1/KintaroButtonError1';
-export { default as KintaroButtonError2 } from './kintaroButtonError2/KintaroButtonError2';
-export { default as KintaroButtonError3 } from './kintaroButtonError3/KintaroButtonError3';
-
-export { default as KintaroButtonSuccess1 } from './kintaroButtonSuccess1/KintaroButtonSuccess1';
-export { default as KintaroButtonSuccess2 } from './kintaroButtonSuccess2/KintaroButtonSuccess2';
-export { default as KintaroButtonSuccess3 } from './kintaroButtonSuccess3/KintaroButtonSuccess3';
-
 // 📑 Title'lar
 export { default as KintaroTitle1 } from './kintaroTitle1/KintaroTitle1';
 export { default as KintaroTitle2 } from './kintaroTitle2/KintaroTitle2';

@@ -1,7 +1,0 @@
-.kintaro-error-button-1 {
-    background: var(--kintaro-error-color);
-}
-
-.kintaro-error-button-1:hover {
-    background: var(--kintaro-error-color-transparent);
-}
