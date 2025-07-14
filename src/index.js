@@ -19,5 +19,6 @@ export { default as KintaroTitle3 } from './kintaroTitle3/KintaroTitle3';
 // 💬 Modal & Description
 export { default as KintaroFooter } from './kintaroFooter/KintaroFooter';
 export { default as KintaroModal } from './kintaroModal/KintaroModal';
+export { default as KintaroAudioPlayer } from './kintaroAudioPlayer/KintaroAudioPlayer';
 export { default as KintaroDescription } from './kintaroDescription/KintaroDescription';
 export { default as KintaroDivider1 } from './kintaroDivider1/KintaroDivider1';
