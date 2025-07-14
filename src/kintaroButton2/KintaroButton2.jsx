@@ -1,11 +1,11 @@
 import './kintaroButton2.css'
 
-const KintaroButton2 = ({ title, onClick, bgColor }) => {
+const KintaroButton2 = ({ title, onClick, color }) => {
     return (
-        <button className="kintaro-button-reset kintaro-button-2" title={title} onClick={onClick} style={{ background: bgColor }}>
+        <button className="kintaro-button-reset kintaro-button-2" title={title} onClick={onClick} style={{ border: `1px solid ${color}` }}>
             {title}
         </button>
     );
 };
 
-export default KintaroButton2;
+export default KintaroButton2; 

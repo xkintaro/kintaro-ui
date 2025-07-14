@@ -1,5 +1,5 @@
 .kintaro-button-2 {
-    background: var(--kintaro-input-color);
+    border: 1px solid var(--kintaro-accent-color-1);
 }
 
 .kintaro-button-2:hover {
