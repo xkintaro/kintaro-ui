@@ -9,7 +9,7 @@ const KintaroButton3 = ({ title, onClick, color, bgColor, hoverColor = 'var(--ki
             style={{
                 background: bgColor,
                 color: color,
-                '--kintaro-hover': hoverColor
+                '--kintaro-custom-hover': hoverColor
             }}>
             {title}
         </button >

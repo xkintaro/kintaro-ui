@@ -8,7 +8,7 @@ const KintaroButton4 = ({ title, onClick, color, hoverColor = 'var(--kintaro-hov
             title={title}
             style={{
                 color: color,
-                '--kintaro-hover': hoverColor
+                '--kintaro-custom-hover': hoverColor
             }}>
             {title}
         </button>

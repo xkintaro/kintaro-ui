@@ -9,7 +9,7 @@ const KintaroButton2 = ({ title, onClick, color, borderColor = 'var(--kintaro-ho
             style={{
                 border: `1px solid ${borderColor}`,
                 color: color,
-                '--kintaro-hover': borderColor
+                '--kintaro-custom-hover': borderColor
             }}>
             {title}
         </button>
