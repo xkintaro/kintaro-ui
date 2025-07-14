@@ -8,5 +8,5 @@
 }
 
 .kintaro-button-3:hover {
-   background: var(--kintaro-custom-hover) !important;
+   background: var(--kintaro-custom-hover, var(--kintaro-hover)) !important;
 }
