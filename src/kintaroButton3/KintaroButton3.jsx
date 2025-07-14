@@ -1,6 +1,6 @@
 import './kintaroButton3.css'
 
-const KintaroButton3 = ({ title, onClick, color, bgColor, hoverColor = 'var(--kintaro-hover)' }) => {
+const KintaroButton3 = ({ title, onClick, width, color, bgColor, hoverColor = 'var(--kintaro-hover)' }) => {
     return (
         <button
             className="kintaro-button-reset kintaro-button-3"
@@ -9,7 +9,8 @@ const KintaroButton3 = ({ title, onClick, color, bgColor, hoverColor = 'var(--ki
             style={{
                 background: bgColor,
                 color: color,
-                '--kintaro-custom-hover': hoverColor
+                '--kintaro-custom-hover': hoverColor,
+                width: width
             }}>
             {title}
         </button >
