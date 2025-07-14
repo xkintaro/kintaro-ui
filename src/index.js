@@ -5,7 +5,7 @@ export { default as KintaroTextBox3 } from './kintaroTextBox3/KintaroTextBox3';
 
 // 🔘 Button'lar
 export { default as KintaroButton1 } from './kintaroButton1/KintaroButton1';
- 
+export { default as KintaroButton2 } from './kintaroButton2/KintaroButton2';
 export { default as KintaroButton3 } from './kintaroButton3/KintaroButton3';
 export { default as KintaroButton4 } from './kintaroButton4/KintaroButton4';
 
