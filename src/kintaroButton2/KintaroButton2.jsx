@@ -1,6 +1,6 @@
 import './kintaroButton2.css'
 
-const KintaroButton2 = ({ title, onClick, color, borderColor, hoverColor = 'var(--kintaro-hover)' }) => {
+const KintaroButton2 = ({ title, onClick, color, borderColor }) => {
     return (
         <button
             className="kintaro-button-reset kintaro-button-2"
@@ -9,7 +9,7 @@ const KintaroButton2 = ({ title, onClick, color, borderColor, hoverColor = 'var(
             style={{
                 border: `1px solid ${borderColor}`,
                 color: color,
-                '--kintaro-hover': hoverColor
+                '--kintaro-hover': borderColor
             }}>
             {title}
         </button>
