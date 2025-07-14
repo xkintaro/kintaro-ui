@@ -4,4 +4,5 @@
 
 .kintaro-button-1:hover {
     background: var(--kintaro-input-color-hover);
+    color: red;
 }
