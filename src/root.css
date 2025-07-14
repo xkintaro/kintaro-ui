@@ -120,12 +120,6 @@ body {
   padding: 12px 24px;
 }
 
-.kintaro-button-reset:active {
-  transform: scale(0.90);
-  filter: brightness(0.90);
-  /* isteğe bağlı karartma efekti */
-}
-
 /**********kintaro-reset-end**********/
 
 /**********kintaro-floating-layout**********/

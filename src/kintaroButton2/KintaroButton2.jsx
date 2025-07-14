@@ -1,6 +1,6 @@
 import './kintaroButton2.css'
 
-const KintaroButton2 = ({ title, onClick, color, borderColor = 'var(--kintaro-hover)' }) => {
+const KintaroButton2 = ({ title, onClick, color, borderColor }) => {
     return (
         <button
             className="kintaro-button-reset kintaro-button-2"
