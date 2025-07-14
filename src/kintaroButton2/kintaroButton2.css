@@ -1,7 +1,7 @@
 .kintaro-button-2 {
-    border: 1px solid var(--kintaro-input-color-1);
+    border: 1px solid var(--kintaro-input-color);
 }
 
 .kintaro-button-2:hover {
-    border: 1px solid var(--kintaro-hover) !important;
+    background: var(--kintaro-hover) !important;
 }
