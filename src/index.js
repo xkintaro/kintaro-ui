@@ -9,10 +9,6 @@ export { default as KintaroButton2 } from './kintaroButton2/KintaroButton2';
 export { default as KintaroButton3 } from './kintaroButton3/KintaroButton3';
 export { default as KintaroButton4 } from './kintaroButton4/KintaroButton4';
 
-export { default as KintaroButtonAccent1 } from './kintaroButtonAccent1/KintaroButtonAccent1';
-export { default as KintaroButtonAccent2 } from './kintaroButtonAccent2/KintaroButtonAccent2';
-export { default as KintaroButtonAccent3 } from './kintaroButtonAccent3/KintaroButtonAccent3';
-
 export { default as KintaroButtonClose } from './kintaroButtonClose/KintaroButtonClose';
 
 export { default as KintaroButtonError1 } from './kintaroButtonError1/KintaroButtonError1';
