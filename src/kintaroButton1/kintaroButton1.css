@@ -3,6 +3,6 @@
 }
 
 .kintaro-button-1:hover {
-    background: var(--kintaro-input-color-hover);
+    background: var(--kintaro-input-color-hover) !important;
     color: red;
 }
