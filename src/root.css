@@ -121,8 +121,8 @@ body {
 }
 
 .kintaro-button-reset:active {
-  transform: scale(0.95);
-  filter: brightness(0.95);
+  transform: scale(0.90);
+  filter: brightness(0.90);
   /* isteğe bağlı karartma efekti */
 }
 
