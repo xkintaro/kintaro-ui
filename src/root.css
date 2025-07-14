@@ -59,6 +59,7 @@
   --kintaro-animation: kintaro-animation 0.3s ease-out;
 
   --popup-z-index: 999;
+  --audio-player-z-index: 998;
 }
 
 @keyframes kintaro-animation {
