@@ -193,7 +193,22 @@ const KintaroAudioPlayer = ({
 
     const togglePlayer = () => setIsPlayerVisible(!isPlayerVisible);
     const handlePlayerVisibility = () => setIsPlayerVisible(true);
-    const handleMinimizePlayer = () => setIsPlayerVisible(false);
+    const handleMinimizePlayer = () => {
+        setIsPlayerVisible(false);
+        setShowPlaylist(false);
+    }
+
+    useEffect(() => {
+        if (isPlayerVisible) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = '';
+        }
+
+        return () => {
+            document.body.style.overflow = '';
+        };
+    }, [isPlayerVisible]);
 
     return (
         <div className={`kintaro-audio-player ${isPlayerVisible ? 'fullscreen' : ''}`}>
