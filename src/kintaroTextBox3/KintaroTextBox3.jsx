@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { IoEye, IoEyeOff } from "react-icons/io5";
 import './kintaroTextbox3.css';
 
-const KintaroTextBox3 = ({ value, onChange, title }) => {
+const KintaroTextBox3 = ({ width, value, onChange, title }) => {
 
     const [passwordVisible, setPasswordVisible] = useState(false);
     const togglePasswordVisibility = () => setPasswordVisible(!passwordVisible);
@@ -16,6 +16,9 @@ const KintaroTextBox3 = ({ value, onChange, title }) => {
                 placeholder=""
                 value={value}
                 onChange={onChange}
+                style={{
+                    width: width
+                }}
             />
             <label className="kintaro-txtbox-3-label">{title}</label>
 

@@ -1,6 +1,6 @@
 import './kintaroTextBox2.css';
 
-const KintaroTextBox2 = ({ value, onChange, title, type }) => {
+const KintaroTextBox2 = ({ width, value, onChange, title, type }) => {
     return (
         <div className="kintaro-floating-layout">
             <input
@@ -9,6 +9,9 @@ const KintaroTextBox2 = ({ value, onChange, title, type }) => {
                 placeholder=""
                 value={value}
                 onChange={onChange}
+                style={{
+                    width: width
+                }}
             />
             <label className="kintaro-txtbox-2-label">{title}</label>
         </div>
