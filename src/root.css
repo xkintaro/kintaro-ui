@@ -109,6 +109,7 @@ body {
   transition: var(--kintaro-transition-1);
   color: var(--kintaro-text-color-1);
   text-shadow: var(--kintaro-text-shadow);
+  gap: var(--kintaro-gap-xs);
   width: fit-content;
   background: transparent;
   user-select: none;
