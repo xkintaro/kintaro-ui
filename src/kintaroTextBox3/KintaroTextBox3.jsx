@@ -8,7 +8,10 @@ const KintaroTextBox3 = ({ width, value, onChange, title }) => {
     const togglePasswordVisibility = () => setPasswordVisible(!passwordVisible);
 
     return (
-        <div className="kintaro-floating-layout">
+        <div className="kintaro-floating-layout"
+            style={{
+                width: width
+            }}>
 
             <input
                 className="kintaro-txtbox-3-textbox"
@@ -16,9 +19,6 @@ const KintaroTextBox3 = ({ width, value, onChange, title }) => {
                 placeholder=""
                 value={value}
                 onChange={onChange}
-                style={{
-                    width: width
-                }}
             />
             <label className="kintaro-txtbox-3-label">{title}</label>
 
