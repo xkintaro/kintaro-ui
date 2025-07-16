@@ -1,14 +1,16 @@
 import './kintaroTitle1.css'
 
-const KintaroTitle1 = ({ title, color }) => {
-    const style = color ? { color: color } : {};
+const KintaroTitle1 = ({ title, color, textAlign, width }) => {
 
     return (
         <h1
             className="kintaro-title-reset kintaro-title-1"
             title={title}
-            style={style}
-        >
+            style={{
+                textAlign: textAlign,
+                color: color,
+                maxWidth: width
+            }}>
             {title}
         </h1>
     );
