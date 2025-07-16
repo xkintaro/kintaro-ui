@@ -6,6 +6,7 @@
          user-select: none;
          padding-left: 35px;
          transition: var(--kintaro-transition-1);
+         color: var(--kintaro-text-color-2);
      }
 
      .kintaro-checkbox-layout:hover {
@@ -33,10 +34,7 @@
          align-items: center;
      }
 
-     .kintaro-checkbox-layout:hover .kintaro-checkmark {
-         border-color: var(--kintaro-accent-color-1-transparent);
-     }
-
+ 
      .kintaro-checkbox:checked~.kintaro-checkmark {
          background-color: var(--kintaro-accent-color-1);
          border-color: var(--kintaro-accent-color-1);
