@@ -11,7 +11,7 @@ const KintaroCheckBox = ({ checked = false, onChange, title = "", disabled = fal
                 disabled={disabled}
             />
             <span className='kintaro-checkmark'></span>
-            {title}
+            <span>{title}</span>
         </label>
     );
 };
