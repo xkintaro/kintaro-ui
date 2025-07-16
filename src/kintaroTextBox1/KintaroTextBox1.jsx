@@ -10,7 +10,7 @@ const KintaroTextBox1 = ({ height, width, value, onChange, title, type }) => {
             onChange={onChange}
             style={{
                 height: height,
-                width: width
+                maxWidth: width
             }}
         />
     );
