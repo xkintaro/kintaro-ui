@@ -10,7 +10,7 @@ const KintaroTextBox3 = ({ width, value, onChange, title }) => {
     return (
         <div className="kintaro-floating-layout"
             style={{
-                width: width
+                maxWidth: width
             }}>
 
             <input
