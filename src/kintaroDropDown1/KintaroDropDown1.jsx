@@ -1,8 +1,14 @@
 import { useState, useRef, useEffect } from 'react';
 import { FiChevronDown, FiCheck } from 'react-icons/fi';
 import './kintaroDropDown1.css'
-const KintaroDropDown1 = ({ options, placeholder = "Select an option", onSelect }) => {
 
+const KintaroDropDown1 = ({
+    options,
+    placeholder = "Select an option",
+    onSelect,
+    onChange,
+    value
+}) => {
     const [isOpen, setIsOpen] = useState(false);
     const [selectedOption, setSelectedOption] = useState(null);
     const dropdownRef = useRef(null);
@@ -23,6 +29,7 @@ const KintaroDropDown1 = ({ options, placeholder = "Select an option", onSelect 
     const handleSelect = (option) => {
         setSelectedOption(option);
         onSelect && onSelect(option);
+        onChange && onChange(option.value); // onChange'i option.value ile çağırıyoruz
         setIsOpen(false);
     };
 
