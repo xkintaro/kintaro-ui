@@ -14,6 +14,11 @@ const KintaroDropDown1 = ({
     const dropdownRef = useRef(null);
 
     useEffect(() => {
+        const matchedOption = options.find(option => option.value === value);
+        setSelectedOption(matchedOption || null);
+    }, [value, options]);
+
+    useEffect(() => {
         const handleClickOutside = (event) => {
             if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
                 setIsOpen(false);
@@ -29,7 +34,7 @@ const KintaroDropDown1 = ({
     const handleSelect = (option) => {
         setSelectedOption(option);
         onSelect && onSelect(option);
-        onChange && onChange(option.value); // onChange'i option.value ile çağırıyoruz
+        onChange && onChange(option.value);
         setIsOpen(false);
     };
 
