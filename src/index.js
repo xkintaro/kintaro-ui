@@ -19,7 +19,7 @@ export { default as KintaroTitle3 } from './kintaroTitle3/KintaroTitle3';
 // 💬 Modal & Description
 export { default as KintaroCheckBox } from './kintaroCheckBox/KintaroCheckBox';
 export { default as KintaroFooter } from './kintaroFooter/KintaroFooter';
-export { default as KintaroDropdown } from './kintaroDropdown/KintaroDropdown';
+export { default as KintaroDropDown1 } from './kintaroDropDown1/KintaroDropDown1';
 export { default as KintaroModal } from './kintaroModal/KintaroModal';
 export { default as KintaroAudioPlayer } from './kintaroAudioPlayer/KintaroAudioPlayer';
 export { default as KintaroDescription } from './kintaroDescription/KintaroDescription';
