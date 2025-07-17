@@ -1,3 +1,7 @@
+.kintaro-description {
+    text-align: var(--custom-text-align);
+}
+
 .kintaro-description-text {
     color: var(--kintaro-text-color-2);
     font-size: var(--kintaro-font-md);
@@ -31,7 +35,7 @@
 }
 
 @media (max-width: 768px) {
-    .kintaro-description-text {
-        text-align: var(--text-align-mobile);
+    .kintaro-description {
+        text-align: var(--custom-text-align-mobile);
     }
 }

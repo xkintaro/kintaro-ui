@@ -18,8 +18,8 @@ const KintaroDescription = ({
     return (
         <div className="kintaro-description"
             style={{
-                '--text-align': textAlign,
-                '--text-align-mobile': textAlignMobile || textAlign
+                '--custom-text-align': textAlign,
+                '--custom-text-align-mobile': textAlignMobile || textAlign
             }}>
             <p className="kintaro-description-text" >
                 {displayedText}
