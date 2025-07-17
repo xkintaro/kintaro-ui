@@ -70,7 +70,7 @@
     }
 }
 
-@media (max-width: 768pxs) {
+@media (max-width: 768px) {
     .kintaro-footer-header {
         align-items: center;
     }
