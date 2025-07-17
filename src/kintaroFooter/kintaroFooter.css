@@ -36,13 +36,14 @@
     justify-content: space-between;
     border-bottom: 1px solid var(--kintaro-border);
     padding-bottom: var(--kintaro-gap-md);
+    gap: var(--kintaro-gap-sm);
 }
 
 .kintaro-footer-section {
     display: flex;
     flex-direction: column;
     gap: var(--kintaro-gap-sm);
-    width: 100%;
+    width: fit-content;
     max-width: 300px;
     margin-bottom: var(--kintaro-gap-sm);
 }
@@ -66,5 +67,11 @@
 @media (max-width: 1200px) {
     .kintaro-footer-container {
         padding: var(--kintaro-gap-xl);
+    }
+}
+
+@media (max-width: 768pxs) {
+    .kintaro-footer-header {
+        align-items: center;
     }
 }

@@ -63,7 +63,10 @@ const KintaroFooter = ({
         <div className="kintaro-footer-container">
             <div className="kintaro-footer-header">
                 <KintaroTitle2 title={title} />
-                <KintaroDescription text={description} />
+                <KintaroDescription
+                 text={description}
+                 textAlignMobile={"center"}
+                  />
                 <div className="kintaro-footer-social-icons">
                     {socialIcons.map((social, index) => (
                         <a key={index} href={social.url} className='kintaro-footer-social-icon'>{social.icon}</a>
