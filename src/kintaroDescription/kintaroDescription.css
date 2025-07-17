@@ -29,3 +29,9 @@
 .kintaro-description-button:hover {
     color: var(--kintaro-text-color-2);
 }
+
+@media (max-width: 768px) {
+    .kintaro-description-text {
+        text-align: var(--text-align-mobile);
+    }
+}

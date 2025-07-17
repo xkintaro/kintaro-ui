@@ -5,7 +5,8 @@ const KintaroDescription = ({
     text,
     maxLength,
     showToggleButton = true,
-    textAlign
+    textAlign = 'left',
+    textAlignMobile
 }) => {
     const [isExpanded, setIsExpanded] = useState(false);
 
@@ -15,11 +16,12 @@ const KintaroDescription = ({
         : `${text.slice(0, maxLength)}...`;
 
     return (
-        <div className="kintaro-description"
-            style={{
-                textAlign: textAlign
-            }}>
-            <p className="kintaro-description-text" >
+        <div className="kintaro-description">
+            <p className="kintaro-description-text"
+                style={{
+                    '--text-align': textAlign,
+                    '--text-align-mobile': textAlignMobile || textAlign
+                }}>
                 {displayedText}
             </p>
             {showToggleButton && shouldTruncate && (
@@ -35,4 +37,4 @@ const KintaroDescription = ({
     );
 };
 
-export default KintaroDescription 
+export default KintaroDescription;
