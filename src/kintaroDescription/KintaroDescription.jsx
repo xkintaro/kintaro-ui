@@ -16,12 +16,12 @@ const KintaroDescription = ({
         : `${text.slice(0, maxLength)}...`;
 
     return (
-        <div className="kintaro-description">
-            <p className="kintaro-description-text"
-                style={{
-                    '--text-align': textAlign,
-                    '--text-align-mobile': textAlignMobile || textAlign
-                }}>
+        <div className="kintaro-description"
+            style={{
+                '--text-align': textAlign,
+                '--text-align-mobile': textAlignMobile || textAlign
+            }}>
+            <p className="kintaro-description-text" >
                 {displayedText}
             </p>
             {showToggleButton && shouldTruncate && (
