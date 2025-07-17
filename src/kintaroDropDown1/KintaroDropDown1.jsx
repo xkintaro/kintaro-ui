@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { FiChevronDown, FiCheck } from 'react-icons/fi';
-import './kintaroDropDown.css'
+import './kintaroDropDown1.css'
 const KintaroDropDown1 = ({ options, placeholder = "Select an option", onSelect }) => {
 
     const [isOpen, setIsOpen] = useState(false);
