@@ -62,4 +62,4 @@ const KintaroDropDown1 = ({ options, placeholder = "Select an option", onSelect 
     );
 };
 
-export { KintaroDropDown1 };
+export default KintaroDropDown1;
