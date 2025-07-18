@@ -8,6 +8,7 @@ const KintaroModal = ({
     isOpen = false,
     onClose,
     title,
+    width
 }) => {
 
     useEffect(() => {
@@ -33,7 +34,10 @@ const KintaroModal = ({
                 onClick={onClose}
             />
 
-            <div className="kintaro-modal-box">
+            <div className="kintaro-modal-box"
+                style={{
+                    maxWidth: width
+                }}>
 
                 <div className="kintaro-modal-header">
                     <KintaroTitle2 title={title} />
