@@ -3,6 +3,7 @@
     position: relative;
     min-width: 150px;
     user-select: none;
+    width: fit-content;
 }
 
 /* Tetikleyici alanı */

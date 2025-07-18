@@ -7,7 +7,8 @@ const KintaroDropDown1 = ({
     placeholder = "Select an option",
     onSelect,
     onChange,
-    value
+    value,
+    width
 }) => {
     const [isOpen, setIsOpen] = useState(false);
     const [selectedOption, setSelectedOption] = useState(null);
@@ -39,7 +40,10 @@ const KintaroDropDown1 = ({
     };
 
     return (
-        <div className="kintaro-dropdown-container" ref={dropdownRef}>
+        <div className="kintaro-dropdown-container" ref={dropdownRef}
+            style={{
+                width: width
+            }}>
             <div
                 className={`kintaro-dropdown-trigger ${isOpen ? 'kintaro-dropdown-open' : ''}`}
                 onClick={() => setIsOpen(!isOpen)}
