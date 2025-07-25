@@ -1,11 +1,11 @@
 import './kintaroTextBox1.css';
 
-const KintaroTextBox1 = ({ height, width, value, onChange, title, type }) => {
+const KintaroTextBox1 = ({ height, width, value, onChange, placeholder, type }) => {
     return (
         <input
             className="kintaro-txtbox-1-textbox"
             type={type}
-            placeholder={title}
+            placeholder={placeholder}
             value={value}
             onChange={onChange}
             style={{
