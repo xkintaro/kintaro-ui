@@ -8,16 +8,26 @@ const KintaroDropDown1 = ({
     onSelect,
     onChange,
     value,
+    selectedValue,  // New prop for controlled selection
     width
 }) => {
     const [isOpen, setIsOpen] = useState(false);
-    const [selectedOption, setSelectedOption] = useState(null);
     const dropdownRef = useRef(null);
 
-    useEffect(() => {
-        const matchedOption = options.find(option => option.value === value);
-        setSelectedOption(matchedOption || null);
-    }, [value, options]);
+    // Determine the selected option based on props
+    const getSelectedOption = () => {
+        // Priority to selectedValue prop if provided
+        if (selectedValue !== undefined) {
+            return options.find(option => option.value === selectedValue) || null;
+        }
+        // Fallback to value prop (for backward compatibility)
+        if (value !== undefined) {
+            return options.find(option => option.value === value) || null;
+        }
+        return null;
+    };
+
+    const selectedOption = getSelectedOption();
 
     useEffect(() => {
         const handleClickOutside = (event) => {
@@ -33,7 +43,6 @@ const KintaroDropDown1 = ({
     }, []);
 
     const handleSelect = (option) => {
-        setSelectedOption(option);
         onSelect && onSelect(option);
         onChange && onChange(option.value);
         setIsOpen(false);
