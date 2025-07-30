@@ -59,3 +59,9 @@
     right: 20%;
     transform: translateX(50%) rotate(12deg)
 }
+
+@media (max-width: 768px) {
+    .kintaro-divider {
+        margin: 0;
+    }
+}
