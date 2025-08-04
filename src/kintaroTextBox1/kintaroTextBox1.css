@@ -1,4 +1,4 @@
-.kintaro-txtbox-1-textbox {
+.kintaro-txtbox-1 {
     font-size: var(--kintaro-font-md);
     color: var(--kintaro-text-color-1);
     border-radius: var(--kintaro-border-radius-1);
@@ -11,10 +11,15 @@
     width: 100%;
 }
 
-.kintaro-txtbox-1-textbox:focus {
+.kintaro-txtbox-1:focus {
     box-shadow: var(--kintaro-box-shadow);
 }
 
-.kintaro-txtbox-1-textbox::placeholder {
+.kintaro-txtbox-1::placeholder {
     color: var(--kintaro-text-color-2);
+}
+
+.kintaro-txtbox-1-disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
 }

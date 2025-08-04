@@ -1,4 +1,4 @@
-.kintaro-txtbox-3-textbox {
+.kintaro-txtbox-3 {
     font-size: var(--kintaro-font-md);
     color: var(--kintaro-text-color-1);
     border-radius: var(--kintaro-border-radius-1);
@@ -40,17 +40,32 @@
     color: var(--kintaro-accent-color-1);
 }
 
-.kintaro-txtbox-3-textbox:focus+.kintaro-txtbox-3-label {
+.kintaro-txtbox-3:focus+.kintaro-txtbox-3-label {
     color: var(--kintaro-accent-color-1);
     font-size: var(--kintaro-font-sm);
     top: 15px;
 }
 
-.kintaro-txtbox-3-textbox:not(:placeholder-shown)+.kintaro-txtbox-3-label {
+.kintaro-txtbox-3:not(:placeholder-shown)+.kintaro-txtbox-3-label {
     font-size: var(--kintaro-font-sm);
     top: 15px;
 }
 
-.kintaro-txtbox-3-textbox:not(:placeholder-shown)~.kintaro-txtbox-3-icon {
+.kintaro-txtbox-3:not(:placeholder-shown)~.kintaro-txtbox-3-icon {
     display: block;
+}
+
+.kintaro-txtbox-3-disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.kintaro-txtbox-3-label-disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.kintaro-txtbox-3-icon-disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
 }
