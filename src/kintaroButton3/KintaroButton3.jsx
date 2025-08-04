@@ -3,21 +3,14 @@ import './kintaroButton3.css';
 const KintaroButton3 = ({
     children,
     width,
-    color,
-    bgColor,
-    hoverColor = 'var(--kintaro-hover)',
-    className = '',
     style = {},
     ...props
 }) => {
     return (
         <button
             {...props}
-            className={`kintaro-button-reset kintaro-button-3 ${className}`}
+            className={`kintaro-button-reset kintaro-button-3 ${disabled ? 'kintaro-button-disabled' : ''}`}
             style={{
-                background: bgColor,
-                color,
-                '--kintaro-custom-hover': hoverColor,
                 width,
                 ...style
             }}>

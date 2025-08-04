@@ -5,7 +5,3 @@
     font-weight: var(--kintaro-font-weight);
     padding: 0;
 }
-
-.kintaro-button-4:hover {
-    color: var(--kintaro-custom-hover, var(--kintaro-hover)) !important;
-}

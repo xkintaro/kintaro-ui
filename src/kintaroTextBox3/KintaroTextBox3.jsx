@@ -12,7 +12,8 @@ const KintaroTextBox3 = ({
     const togglePasswordVisibility = () => setPasswordVisible(!passwordVisible);
 
     return (
-        <div className="kintaro-floating-layout"
+        <div
+            className={`kintaro-floating-layout ${disabled ? 'kintaro-floating-layout-disabled' : ''}`}
             style={{
                 maxWidth: width
             }}>
