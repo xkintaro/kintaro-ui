@@ -1,9 +1,8 @@
 import './kintaroButtonClose.css';
 
 const KintaroCloseButton = ({
-    size = 24,
+    size = 32,
     color = 'var(--kintaro-text-color-1)',
-    className = '',
     style = {},
     title = 'Close',
     ...props
@@ -11,7 +10,7 @@ const KintaroCloseButton = ({
     return (
         <button
             {...props}
-            className={`kintaro-button-reset kintaro-close-button ${className}`}
+            className="kintaro-button-reset kintaro-close-button"
             style={{
                 color: color,
                 width: size,
