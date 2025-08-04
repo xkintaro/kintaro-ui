@@ -128,12 +128,12 @@ body {
 
 .kintaro-button-disabled {
   opacity: 0.7;
-  cursor: not-allowed;
   pointer-events: none;
 }
 
 .kintaro-button-disabled:hover {
   filter: none !important;
+  cursor: not-allowed;
 }
 
 /**********kintaro-reset-end**********/
