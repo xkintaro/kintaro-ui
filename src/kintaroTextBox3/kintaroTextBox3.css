@@ -28,8 +28,9 @@
 
 .kintaro-txtbox-3-icon {
     transition: var(--kintaro-transition-1);
-    font-size: var(--kintaro-font-xl);
     color: var(--kintaro-text-color-1);
+    width: 24px;
+    height: 24px;
     margin: 15px;
     display: none;
     cursor: pointer;
