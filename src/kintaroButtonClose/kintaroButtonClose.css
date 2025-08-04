@@ -9,10 +9,10 @@
     justify-content: center;
 }
 
-.kintaro-close-button:hover {
-    filter: brightness(0.7);
-}
-
 .kintaro-close-button svg {
     pointer-events: none;
+}
+
+.kintaro-close-button:hover {
+    filter: brightness(0.7) !important;
 }

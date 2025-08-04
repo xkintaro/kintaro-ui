@@ -1,6 +1,10 @@
 import './kintaroCheckBox.css'
 
-const KintaroCheckBox = ({ checked = false, onChange, title = "", disabled = false }) => {
+const KintaroCheckBox = ({
+    checked = false,
+    onChange,
+    disabled = false,
+}) => {
     return (
         <label className='kintaro-checkbox-layout'>
             <input
@@ -11,7 +15,6 @@ const KintaroCheckBox = ({ checked = false, onChange, title = "", disabled = fal
                 disabled={disabled}
             />
             <span className='kintaro-checkmark'></span>
-            <span>{title}</span>
         </label>
     );
 };

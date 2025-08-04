@@ -8,7 +8,7 @@
          transition: var(--kintaro-transition-1);
          color: var(--kintaro-text-color-2);
      }
- 
+
      .kintaro-checkbox {
          position: absolute;
          opacity: 0;
