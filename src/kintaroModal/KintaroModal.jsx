@@ -23,7 +23,6 @@ const KintaroModal = ({
         };
     }, [isOpen]);
 
-d
     if (!isOpen) return null;
 
     return (
