@@ -10,6 +10,7 @@ const KintaroButton1 = ({
     return (
         <button
             {...props}
+            disabled={disabled}
             className={`kintaro-button-reset kintaro-button-1 ${disabled ? 'kintaro-button-disabled' : ''}`}
             style={{
                 width: width,
