@@ -1,9 +1,18 @@
 .kintaro-close-button {
-    color: var(--kintaro-text-color-2);
-    font-size: var(--kintaro-font-xl);
-    padding: 0;
+    cursor: pointer;
+    transition: var(--kintaro-transition-1);
+    background: none;
+    border: none;
+    padding: 4px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .kintaro-close-button:hover {
-    color: var(--kintaro-text-color-1);
+    filter: brightness(0.8);
+}
+
+.kintaro-close-button svg {
+    pointer-events: none;
 }

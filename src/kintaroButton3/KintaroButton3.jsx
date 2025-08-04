@@ -1,20 +1,28 @@
-import './kintaroButton3.css'
+import './kintaroButton3.css';
 
-const KintaroButton3 = ({ children, title, onClick, width, color, bgColor, hoverColor = 'var(--kintaro-hover)' }) => {
+const KintaroButton3 = ({
+    children,
+    width,
+    color,
+    bgColor,
+    hoverColor = 'var(--kintaro-hover)',
+    className = '',
+    style = {},
+    ...props
+}) => {
     return (
         <button
-            className="kintaro-button-reset kintaro-button-3"
-            title={title}
-            onClick={onClick}
+            {...props}
+            className={`kintaro-button-reset kintaro-button-3 ${className}`}
             style={{
                 background: bgColor,
-                color: color,
+                color,
                 '--kintaro-custom-hover': hoverColor,
-                width: width
+                width,
+                ...style
             }}>
             {children}
-            {title}
-        </button >
+        </button>
     );
 };
 
