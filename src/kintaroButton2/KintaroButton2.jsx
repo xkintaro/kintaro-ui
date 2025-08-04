@@ -4,6 +4,7 @@ const KintaroButton2 = ({
     children,
     width,
     style = {},
+    disabled = false,
     ...props
 }) => {
     return (

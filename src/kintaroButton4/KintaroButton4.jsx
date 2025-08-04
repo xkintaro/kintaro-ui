@@ -3,6 +3,7 @@ import './kintaroButton4.css';
 const KintaroButton4 = ({
     children,
     style = {},
+    disabled = false,
     ...props
 }) => {
     return (
