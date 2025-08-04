@@ -4,7 +4,8 @@
          align-items: center;
          cursor: pointer;
          user-select: none;
-         padding-left: 30px;
+         width: 22px;
+         height: 22px;
          transition: var(--kintaro-transition-1);
          color: var(--kintaro-text-color-2);
      }
@@ -20,9 +21,10 @@
      .kintaro-checkmark {
          position: absolute;
          left: 0;
-         height: 22px;
-         width: 22px;
-         border: 2px solid #ccc;
+         top: 0;
+         height: 100%;
+         width: 100%;
+         border: 2px solid var(--kintaro-text-color-2);
          border-radius: 6px;
          transition: var(--kintaro-transition-1);
          display: flex;
