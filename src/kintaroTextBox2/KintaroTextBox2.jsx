@@ -16,8 +16,8 @@ const KintaroTextBox2 = ({
             <input
                 {...props}
                 className={`kintaro-txtbox-2 ${disabled ? 'kintaro-txtbox-2-disabled' : ''}`}
-                placeholder=""
                 disabled={disabled}
+                placeholder=""
             />
             <label className={`kintaro-txtbox-2-label ${disabled ? 'kintaro-txtbox-2-label-disabled' : ''}`}>
                 {title}

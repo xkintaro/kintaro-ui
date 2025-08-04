@@ -11,6 +11,7 @@ const KintaroTextBox1 = ({
             {...props}
             className={`kintaro-txtbox-1 ${disabled ? 'kintaro-txtbox-1-disabled' : ''}`}
             placeholder={placeholder}
+            disabled={disabled}
             style={{
                 height: height,
                 maxWidth: width
