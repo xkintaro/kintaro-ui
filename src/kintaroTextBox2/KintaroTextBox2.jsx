@@ -8,7 +8,7 @@ const KintaroTextBox2 = ({
 }) => {
     return (
         <div
-            className="kintaro-floating-layout"
+            className={`kintaro-floating-layout ${disabled ? 'kintaro-floating-layout-disabled' : ''}`}
             style={{
                 maxWidth: width,
             }}

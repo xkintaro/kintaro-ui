@@ -139,4 +139,9 @@ body {
   box-shadow: var(--kintaro-box-shadow);
 }
 
+.kintaro-floating-layout-disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
 /**********kintaro-floating-layout-end**********/
