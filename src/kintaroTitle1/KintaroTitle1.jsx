@@ -1,17 +1,23 @@
 import './kintaroTitle1.css'
 
-const KintaroTitle1 = ({ title, color, textAlign, width }) => {
+const KintaroTitle1 = ({
+    children,
+    color,
+    width,
+    textAlign = 'left',
+    textAlignMobile
+}) => {
 
     return (
         <h1
             className="kintaro-title-reset kintaro-title-1"
-            title={title}
             style={{
-                textAlign: textAlign,
                 color: color,
-                maxWidth: width
+                maxWidth: width,
+                '--custom-text-align': textAlign,
+                '--custom-text-align-mobile': textAlignMobile || textAlign
             }}>
-            {title}
+            {children}
         </h1>
     );
 };

@@ -101,6 +101,13 @@ body {
   color: var(--kintaro-text-color-1);
   text-shadow: var(--kintaro-text-shadow);
   font-weight: var(--kintaro-font-weight);
+  text-align: var(--custom-text-align);
+}
+
+@media (max-width: 768px) {
+  .kintaro-title-reset {
+    text-align: var(--custom-text-align-mobile);
+  }
 }
 
 .kintaro-button-reset {
