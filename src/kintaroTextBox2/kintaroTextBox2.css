@@ -36,3 +36,17 @@
     font-size: var(--kintaro-font-sm);
     top: 15px;
 }
+
+.kintaro-disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.kintaro-txtbox-2-textbox.disabled {
+    background-color: #f5f5f5;
+    cursor: not-allowed;
+}
+
+.kintaro-txtbox-2-label.disabled {
+    color: #999;
+}

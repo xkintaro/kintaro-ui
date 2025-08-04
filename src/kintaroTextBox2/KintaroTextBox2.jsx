@@ -1,19 +1,29 @@
 import './kintaroTextBox2.css';
 
-const KintaroTextBox2 = ({ width, value, onChange, title, type }) => {
+const KintaroTextBox2 = ({
+    width = '100%',
+    title = 'Your text here',
+    type = 'text',
+    disabled = false,
+    ...props
+}) => {
     return (
-        <div className="kintaro-floating-layout"
+        <div
+            className={`kintaro-floating-layout ${disabled ? 'kintaro-disabled' : ''}`}
             style={{
-                maxWidth: width
-            }}>
+                maxWidth: width,
+            }}
+        >
             <input
-                className="kintaro-txtbox-2-textbox"
+                {...props}
+                className={`kintaro-txtbox-2-textbox ${disabled ? 'disabled' : ''}`}
                 type={type}
                 placeholder=""
-                value={value}
-                onChange={onChange}
+                disabled={disabled}
             />
-            <label className="kintaro-txtbox-2-label">{title}</label>
+            <label className={`kintaro-txtbox-2-label ${disabled ? 'disabled' : ''}`}>
+                {title}
+            </label>
         </div>
     );
 };
