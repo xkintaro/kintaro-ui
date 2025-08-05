@@ -39,7 +39,7 @@ const KintaroModal = ({
                 }}>
 
                 <div className="kintaro-modal-header">
-                    <KintaroTitle2 title={title} />
+                    <KintaroTitle2>{title}</KintaroTitle2>
                     <KintaroButtonClose
                         onClick={onClose}
                         title="Kapat"
