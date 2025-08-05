@@ -231,7 +231,7 @@ const KintaroAudioPlayer = ({
                     <div className="kintaro-audio-player-overlay" onClick={handleMinimizePlayer}></div>
                     <div className="kintaro-audio-player-box">
                         <div className="kintaro-audio-player-box-header">
-                            <KintaroTitle3 title={playerTitle} />
+                            <KintaroTitle3>{playerTitle}</KintaroTitle3>
                             <button
                                 onClick={handleMinimizePlayer}
                                 className="kintaro-audio-player-control-button"
@@ -260,7 +260,7 @@ const KintaroAudioPlayer = ({
                             <div className="kintaro-audio-player-box-main-right">
                                 <div className="kintaro-audio-player-song-info">
                                     <div className="kintaro-audio-player-song-info-details">
-                                        <KintaroTitle3 title={songs[currentSongIndex]?.title || 'Şarkı Seçilmedi'} />
+                                        <KintaroTitle3>{songs[currentSongIndex]?.title || 'Şarkı Seçilmedi'}</KintaroTitle3>
                                         <p className="song-artist">
                                             {songs[currentSongIndex]?.artist || 'Bilinmeyen Sanatçı'}
                                         </p>
