@@ -20,6 +20,7 @@ export { default as KintaroTitle3 } from './kintaroTitle3/KintaroTitle3';
 export { default as KintaroLoader1 } from './kintaroLoader1/KintaroLoader1';
 export { default as KintaroCheckBox } from './kintaroCheckBox/KintaroCheckBox';
 export { default as KintaroFooter } from './kintaroFooter/KintaroFooter';
+export { default as KintaroHero1 } from './kintaroHero1/KintaroHero1';
 export { default as KintaroDropDown1 } from './kintaroDropDown1/KintaroDropDown1';
 export { default as KintaroModal } from './kintaroModal/KintaroModal';
 export { default as KintaroAudioPlayer } from './kintaroAudioPlayer/KintaroAudioPlayer';
