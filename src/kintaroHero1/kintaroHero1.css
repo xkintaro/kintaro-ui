@@ -110,11 +110,11 @@
     0% {
         bottom: -10%;
         transform: translateX(0) scale(0.8);
-        opacity: 0.2;
+        opacity: 0;
     }
 
     10% {
-        opacity: 0.8;
+        opacity: 0.6;
     }
 
     50% {
@@ -122,13 +122,13 @@
     }
 
     90% {
-        opacity: 0.8;
+        opacity: 0.6;
     }
 
     100% {
         bottom: 110%;
         transform: translateX(calc((var(--random-x) - 0.5) * 50px)) scale(1.2);
-        opacity: 0.2;
+        opacity: 0;
     }
 }
 
