@@ -51,6 +51,10 @@
     flex-grow: 1;
 }
 
+.kintaro-modal-content>*:not(:first-child) {
+    margin-top: var(--kintaro-gap-sm);
+}
+
 .kintaro-modal-footer {
     width: 100%;
     display: flex;
