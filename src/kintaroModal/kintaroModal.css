@@ -47,7 +47,7 @@
     overflow: auto;
     display: flex;
     flex-direction: column;
-    gap: var(--kintaro-gap-xs);
+    gap: var(--kintaro-gap-sm);
     flex-grow: 1;
 }
 
