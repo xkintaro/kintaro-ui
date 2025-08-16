@@ -46,9 +46,9 @@ const KintaroModal = ({
                     />
                 </div>
 
-                <div className="kintaro-modal-content">
+                
                     {children}
-                </div>
+                 
 
             </div>
         </div >
