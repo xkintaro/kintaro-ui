@@ -13,7 +13,7 @@ const KintaroHero1 = ({
                     {children}
                 </div>
                 {bgImage && (
-                    <img src={Hero} alt={Hero} className="hero-bg" />
+                    <img src={bgImage} alt={bgImage} className="hero-bg" />
                 )}
                 {bgImage && (
                     <div className="hero-overlay"></div>
