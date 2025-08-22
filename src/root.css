@@ -166,3 +166,39 @@ body {
 }
 
 /**********kintaro-floating-layout-end**********/
+
+.text {
+  color: var(--kintaro-text-color-2);
+  font-size: var(--kintaro-font-md);
+  text-shadow: var(--kintaro-text-shadow);
+}
+
+.text-primary {
+  color: var(--kintaro-text-color-1);
+  font-size: var(--kintaro-font-md);
+  text-shadow: var(--kintaro-text-shadow);
+}
+
+.size-xs {
+  font-size: var(--kintaro-font-xs);
+}
+
+.size-sm {
+  font-size: var(--kintaro-font-sm);
+}
+
+.size-md {
+  font-size: var(--kintaro-font-md);
+}
+
+.size-lg {
+  font-size: var(--kintaro-font-lg);
+}
+
+.size-xl {
+  font-size: var(--kintaro-font-xl);
+}
+
+.size-xxl {
+  font-size: var(--kintaro-font-xxl);
+}
