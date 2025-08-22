@@ -202,3 +202,41 @@ body {
 .size-xxl {
   font-size: var(--kintaro-font-xxl);
 }
+
+/*********/
+
+.gap-xs {
+  gap: var(--kintaro-gap-xs);
+}
+
+.gap-sm {
+  gap: var(--kintaro-gap-sm);
+}
+
+.gap-md {
+  gap: var(--kintaro-gap-md);
+}
+
+.gap-lg {
+  gap: var(--kintaro-gap-lg);
+}
+
+.gap-xl {
+  gap: var(--kintaro-gap-xl);
+}
+
+.gap-xxl {
+  gap: var(--kintaro-gap-xxl);
+}
+
+/*********/
+
+.flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
