@@ -235,6 +235,14 @@ body {
   display: flex;
 }
 
+.w100 {
+  width: 100%;
+}
+
+.wfit {
+  width: fit-content;
+}
+
 .align-center {
   align-items: center;
   justify-content: center;
