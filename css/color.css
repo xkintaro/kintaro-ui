@@ -2,65 +2,65 @@
 
 /* Color 1 */
 .text-color-1 {
-    color: var(--kintaro-text-color-1);
+    color: var(--kintaro-text-color-1) !important;
 }
 
 .text-color-1-transparent {
-    color: var(--kintaro-text-color-1-transparent);
+    color: var(--kintaro-text-color-1-transparent) !important;
 }
 
 /* Color 2 */
 .text-color-2 {
-    color: var(--kintaro-text-color-2);
+    color: var(--kintaro-text-color-2) !important;
 }
 
 .text-color-2-transparent {
-    color: var(--kintaro-text-color-2-transparent);
+    color: var(--kintaro-text-color-2-transparent) !important;
 }
 
 /* Disabled */
 .text-color-disabled {
-    color: var(--kintaro-text-color-disabled);
+    color: var(--kintaro-text-color-disabled) !important;
 }
 
 .text-color-disabled-transparent {
-    color: var(--kintaro-text-color-disabled-transparent);
+    color: var(--kintaro-text-color-disabled-transparent) !important;
 }
 
 /* Accent */
 .text-accent {
-    color: var(--kintaro-accent-color);
+    color: var(--kintaro-accent-color) !important;
 }
 
 .text-accent-transparent {
-    color: var(--kintaro-accent-color-transparent);
+    color: var(--kintaro-accent-color-transparent) !important;
 }
 
 /* Success */
 .text-success {
-    color: var(--kintaro-success-color);
+    color: var(--kintaro-success-color) !important;
 }
 
 .text-success-transparent {
-    color: var(--kintaro-success-color-transparent);
+    color: var(--kintaro-success-color-transparent) !important;
 }
 
 /* Warning */
 .text-warning {
-    color: var(--kintaro-warning-color);
+    color: var(--kintaro-warning-color) !important;
 }
 
 .text-warning-transparent {
-    color: var(--kintaro-warning-color-transparent);
+    color: var(--kintaro-warning-color-transparent) !important;
 }
 
 /* Error */
 .text-error {
-    color: var(--kintaro-error-color);
+    color: var(--kintaro-error-color) !important;
 }
 
 .text-error-transparent {
-    color: var(--kintaro-error-color-transparent);
+    color: var(--kintaro-error-color-transparent) !important;
 }
 
 /**********text-color-end**********/
