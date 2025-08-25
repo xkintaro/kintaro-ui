@@ -1,55 +1,55 @@
 /* Width */
-@import url(../css/width/px-width.css);
-@import url(../css/width/px-max-width.css);
-@import url(../css/width/px-min-width.css);
+@import "../css/width/px-width.css";
+@import "../css/width/px-max-width.css";
+@import "../css/width/px-min-width.css";
 
-@import url(../css/width/percent-width.css);
-@import url(../css/width/percent-max-width.css);
-@import url(../css/width/percent-min-width.css);
+@import "../css/width/percent-width.css";
+@import "../css/width/percent-max-width.css";
+@import "../css/width/percent-min-width.css";
 
-@import url(../css/width/special-width.css);
-@import url(../css/width/special-max-width.css);
-@import url(../css/width/special-min-width.css);
+@import "../css/width/special-width.css";
+@import "../css/width/special-max-width.css";
+@import "../css/width/special-min-width.css";
 
 /* Height */
-@import url(../css/height/px-height.css);
-@import url(../css/height/px-max-height.css);
-@import url(../css/height/px-min-height.css);
+@import "../css/height/px-height.css";
+@import "../css/height/px-max-height.css";
+@import "../css/height/px-min-height.css";
 
-@import url(../css/height/vh.height.css);
-@import url(../css/height/vh-max-height.css);
-@import url(../css/height/vh-min-height.css);
+@import "../css/height/vh-height.css";
+@import "../css/height/vh-max-height.css";
+@import "../css/height/vh-min-height.css";
 
-@import url(../css/height/percent-height.css);
-@import url(../css/height/percent-max-height.css);
-@import url(../css/height/percent-min-height.css);
+@import "../css/height/percent-height.css";
+@import "../css/height/percent-max-height.css";
+@import "../css/height/percent-min-height.css";
 
-@import url(../css/height/special-height.css);
-@import url(../css/height/special-max-height.css);
-@import url(../css/height/special-min-height.css);
+@import "../css/height/special-height.css";
+@import "../css/height/special-max-height.css";
+@import "../css/height/special-min-height.css";
 
 /* Others */
-@import url(../css/backgorund-color.css);
-@import url(../css/backgorund-color-hover.css);
-@import url(../css/color.css);
-@import url(../css/color-hover.css);
-@import url(../css/gap.css);
-@import url(../css/margin.css);
-@import url(../css/padding.css);
-@import url(../css/border.css);
-@import url(../css/overflow.css);
-@import url(../css/transition.css);
-@import url(../css/border-radius.css);
-@import url(../css/flex-direction.css);
-@import url(../css/font-size.css);
-@import url(../css/display.css);
-@import url(../css/justify-content.css);
-@import url(../css/align-items.css);
-@import url(../css/text-align.css);
-@import url(../css/position.css);
-@import url(../css/opacity.css);
-@import url(../css/cursor.css);
-@import url(../css/z-index.css);
+@import "../css/background-color.css";
+@import "../css/background-color-hover.css";
+@import "../css/color.css";
+@import "../css/color-hover.css";
+@import "../css/gap.css";
+@import "../css/margin.css";
+@import "../css/padding.css";
+@import "../css/border.css";
+@import "../css/overflow.css";
+@import "../css/transition.css";
+@import "../css/border-radius.css";
+@import "../css/flex-direction.css";
+@import "../css/font-size.css";
+@import "../css/display.css";
+@import "../css/justify-content.css";
+@import "../css/align-items.css";
+@import "../css/text-align.css";
+@import "../css/position.css";
+@import "../css/opacity.css";
+@import "../css/cursor.css";
+@import "../css/z-index.css";
 
 .text {
     color: var(--kintaro-text-color-2);

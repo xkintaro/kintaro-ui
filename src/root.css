@@ -1,5 +1,5 @@
-@import url(./variables.css);
-@import url(./reset.css);
+@import "./variables.css";
+@import "./reset.css";
 
 :root {
   /* Main Colors */
