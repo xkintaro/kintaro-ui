@@ -1,59 +1,6 @@
 @import "./variables.css";
 @import "./reset.css";
 
-/* Width */
-@import "./css/width/px-width.css";
-@import "./css/width/px-max-width.css";
-@import "./css/width/px-min-width.css";
-
-@import "./css/width/percent-width.css";
-@import "./css/width/percent-max-width.css";
-@import "./css/width/percent-min-width.css";
-
-@import "./css/width/special-width.css";
-@import "./css/width/special-max-width.css";
-@import "./css/width/special-min-width.css";
-
-/* Height */
-@import "./css/height/px-height.css";
-@import "./css/height/px-max-height.css";
-@import "./css/height/px-min-height.css";
-
-@import "./css/height/vh-height.css";
-@import "./css/height/vh-max-height.css";
-@import "./css/height/vh-min-height.css";
-
-@import "./css/height/percent-height.css";
-@import "./css/height/percent-max-height.css";
-@import "./css/height/percent-min-height.css";
-
-@import "./css/height/special-height.css";
-@import "./css/height/special-max-height.css";
-@import "./css/height/special-min-height.css";
-
-/* Others */
-@import "./css/background-color.css";
-@import "./css/background-color-hover.css";
-@import "./css/color.css";
-@import "./css/color-hover.css";
-@import "./css/gap.css";
-@import "./css/margin.css";
-@import "./css/padding.css";
-@import "./css/border.css";
-@import "./css/overflow.css";
-@import "./css/transition.css";
-@import "./css/border-radius.css";
-@import "./css/flex-direction.css";
-@import "./css/font-size.css";
-@import "./css/display.css";
-@import "./css/justify-content.css";
-@import "./css/align-items.css";
-@import "./css/text-align.css";
-@import "./css/position.css";
-@import "./css/opacity.css";
-@import "./css/cursor.css";
-@import "./css/z-index.css";
-
 :root {
   /* Main Colors */
   --kintaro-color-1: rgb(24, 26, 30);
