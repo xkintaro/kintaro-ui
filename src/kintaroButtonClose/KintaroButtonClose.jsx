@@ -5,12 +5,13 @@ const KintaroCloseButton = ({
     color = 'var(--kintaro-text-color-1)',
     style = {},
     title = 'Close',
+    className = '',
     ...props
 }) => {
     return (
         <button
             {...props}
-            className="kintaro-button-reset kintaro-close-button"
+            className={`kintaro-button-reset kintaro-close-button ${className}`}
             style={{
                 color: color,
                 width: size,

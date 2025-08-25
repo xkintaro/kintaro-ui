@@ -5,12 +5,13 @@ const KintaroTitle2 = ({
     color,
     width,
     textAlign = 'left',
-    textAlignMobile
+    textAlignMobile,
+    className = '',
 }) => {
 
     return (
-        <h1
-            className="kintaro-title-reset kintaro-title-2"
+        <h2
+            className={`kintaro-title-reset kintaro-title-2 ${className}`}
             style={{
                 color: color,
                 maxWidth: width,
@@ -18,7 +19,7 @@ const KintaroTitle2 = ({
                 '--custom-text-align-mobile': textAlignMobile || textAlign
             }}>
             {children}
-        </h1>
+        </h2>
     );
 };
 

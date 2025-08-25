@@ -5,13 +5,14 @@ const KintaroButton1 = ({
     width,
     style = {},
     disabled = false,
+    className = '',
     ...props
 }) => {
     return (
         <button
             {...props}
             disabled={disabled}
-            className={`kintaro-button-reset kintaro-button-1 ${disabled ? 'kintaro-button-disabled' : ''}`}
+            className={`kintaro-button-reset kintaro-button-1 ${disabled ? 'kintaro-button-disabled' : ''} ${className}`}
             style={{
                 width: width,
                 ...style
