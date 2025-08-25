@@ -80,3 +80,7 @@
     background-color: transparent !important;
     background: transparent !important;
 }
+
+.outline-none {
+    outline: none;
+}
