@@ -1,0 +1,247 @@
+/**********margin**********/
+
+/* --- Tümü --- */
+.margin-0 {
+    margin: 0;
+}
+
+.margin-xs {
+    margin: var(--kintaro-gap-xs);
+}
+
+.margin-sm {
+    margin: var(--kintaro-gap-sm);
+}
+
+.margin-md {
+    margin: var(--kintaro-gap-md);
+}
+
+.margin-lg {
+    margin: var(--kintaro-gap-lg);
+}
+
+.margin-xl {
+    margin: var(--kintaro-gap-xl);
+}
+
+.margin-xxl {
+    margin: var(--kintaro-gap-xxl);
+}
+
+/* --- Auto --- */
+.margin-auto {
+    margin: auto;
+}
+
+.margin-x-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margin-y-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.margin-top-auto {
+    margin-top: auto;
+}
+
+.margin-right-auto {
+    margin-right: auto;
+}
+
+.margin-bottom-auto {
+    margin-bottom: auto;
+}
+
+.margin-left-auto {
+    margin-left: auto;
+}
+
+/* --- Eksensel (physical) --- */
+.margin-x-0 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.margin-x-xs {
+    margin-left: var(--kintaro-gap-xs);
+    margin-right: var(--kintaro-gap-xs);
+}
+
+.margin-x-sm {
+    margin-left: var(--kintaro-gap-sm);
+    margin-right: var(--kintaro-gap-sm);
+}
+
+.margin-x-md {
+    margin-left: var(--kintaro-gap-md);
+    margin-right: var(--kintaro-gap-md);
+}
+
+.margin-x-lg {
+    margin-left: var(--kintaro-gap-lg);
+    margin-right: var(--kintaro-gap-lg);
+}
+
+.margin-x-xl {
+    margin-left: var(--kintaro-gap-xl);
+    margin-right: var(--kintaro-gap-xl);
+}
+
+.margin-x-xxl {
+    margin-left: var(--kintaro-gap-xxl);
+    margin-right: var(--kintaro-gap-xxl);
+}
+
+.margin-y-0 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.margin-y-xs {
+    margin-top: var(--kintaro-gap-xs);
+    margin-bottom: var(--kintaro-gap-xs);
+}
+
+.margin-y-sm {
+    margin-top: var(--kintaro-gap-sm);
+    margin-bottom: var(--kintaro-gap-sm);
+}
+
+.margin-y-md {
+    margin-top: var(--kintaro-gap-md);
+    margin-bottom: var(--kintaro-gap-md);
+}
+
+.margin-y-lg {
+    margin-top: var(--kintaro-gap-lg);
+    margin-bottom: var(--kintaro-gap-lg);
+}
+
+.margin-y-xl {
+    margin-top: var(--kintaro-gap-xl);
+    margin-bottom: var(--kintaro-gap-xl);
+}
+
+.margin-y-xxl {
+    margin-top: var(--kintaro-gap-xxl);
+    margin-bottom: var(--kintaro-gap-xxl);
+}
+
+/* --- Yönlü (physical) --- */
+.margin-top-0 {
+    margin-top: 0;
+}
+
+.margin-top-xs {
+    margin-top: var(--kintaro-gap-xs);
+}
+
+.margin-top-sm {
+    margin-top: var(--kintaro-gap-sm);
+}
+
+.margin-top-md {
+    margin-top: var(--kintaro-gap-md);
+}
+
+.margin-top-lg {
+    margin-top: var(--kintaro-gap-lg);
+}
+
+.margin-top-xl {
+    margin-top: var(--kintaro-gap-xl);
+}
+
+.margin-top-xxl {
+    margin-top: var(--kintaro-gap-xxl);
+}
+
+.margin-right-0 {
+    margin-right: 0;
+}
+
+.margin-right-xs {
+    margin-right: var(--kintaro-gap-xs);
+}
+
+.margin-right-sm {
+    margin-right: var(--kintaro-gap-sm);
+}
+
+.margin-right-md {
+    margin-right: var(--kintaro-gap-md);
+}
+
+.margin-right-lg {
+    margin-right: var(--kintaro-gap-lg);
+}
+
+.margin-right-xl {
+    margin-right: var(--kintaro-gap-xl);
+}
+
+.margin-right-xxl {
+    margin-right: var(--kintaro-gap-xxl);
+}
+
+.margin-bottom-0 {
+    margin-bottom: 0;
+}
+
+.margin-bottom-xs {
+    margin-bottom: var(--kintaro-gap-xs);
+}
+
+.margin-bottom-sm {
+    margin-bottom: var(--kintaro-gap-sm);
+}
+
+.margin-bottom-md {
+    margin-bottom: var(--kintaro-gap-md);
+}
+
+.margin-bottom-lg {
+    margin-bottom: var(--kintaro-gap-lg);
+}
+
+.margin-bottom-xl {
+    margin-bottom: var(--kintaro-gap-xl);
+}
+
+.margin-bottom-xxl {
+    margin-bottom: var(--kintaro-gap-xxl);
+}
+
+.margin-left-0 {
+    margin-left: 0;
+}
+
+.margin-left-xs {
+    margin-left: var(--kintaro-gap-xs);
+}
+
+.margin-left-sm {
+    margin-left: var(--kintaro-gap-sm);
+}
+
+.margin-left-md {
+    margin-left: var(--kintaro-gap-md);
+}
+
+.margin-left-lg {
+    margin-left: var(--kintaro-gap-lg);
+}
+
+.margin-left-xl {
+    margin-left: var(--kintaro-gap-xl);
+}
+
+.margin-left-xxl {
+    margin-left: var(--kintaro-gap-xxl);
+}
+
+/**********margin-end**********/

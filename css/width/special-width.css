@@ -1,0 +1,36 @@
+/* Special Width Values */
+.w-0 {
+    width: 0;
+}
+
+.w-screen {
+    width: 100vw;
+}
+
+.w-auto {
+    width: auto;
+}
+
+.w-fit {
+    width: fit-content;
+}
+
+.w-max {
+    width: max-content;
+}
+
+.w-min {
+    width: min-content;
+}
+
+.w-unset {
+    width: unset;
+}
+
+.w-initial {
+    width: initial;
+}
+
+.w-inherit {
+    width: inherit;
+}

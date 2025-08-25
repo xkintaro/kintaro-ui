@@ -1,0 +1,31 @@
+/**********gap**********/
+
+.gap-0 {
+    gap: 0;
+}
+
+.gap-xs {
+    gap: var(--kintaro-gap-xs);
+}
+
+.gap-sm {
+    gap: var(--kintaro-gap-sm);
+}
+
+.gap-md {
+    gap: var(--kintaro-gap-md);
+}
+
+.gap-lg {
+    gap: var(--kintaro-gap-lg);
+}
+
+.gap-xl {
+    gap: var(--kintaro-gap-xl);
+}
+
+.gap-xxl {
+    gap: var(--kintaro-gap-xxl);
+}
+
+/**********gap-end**********/

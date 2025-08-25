@@ -1,0 +1,36 @@
+/* Special Min Height Values */
+.min-h-0 {
+    min-height: 0;
+}
+
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.min-h-auto {
+    min-height: auto;
+}
+
+.min-h-fit {
+    min-height: fit-content;
+}
+
+.min-h-max {
+    min-height: max-content;
+}
+
+.min-h-min {
+    min-height: min-content;
+}
+
+.min-h-unset {
+    min-height: unset;
+}
+
+.min-h-initial {
+    min-height: initial;
+}
+
+.min-h-inherit {
+    min-height: inherit;
+}

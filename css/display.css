@@ -1,0 +1,19 @@
+/**********display**********/
+
+.hidden {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+.flex {
+    display: flex;
+}
+
+.inline-flex {
+    display: inline-flex;
+}
+
+/**********display-end**********/

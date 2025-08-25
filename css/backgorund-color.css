@@ -1,0 +1,66 @@
+/**********background-color**********/
+
+/* Color 1 */
+.bg-color-1 {
+    background-color: var(--kintaro-color-1);
+}
+
+.bg-color-1-transparent {
+    background-color: var(--kintaro-color-1-transparent);
+}
+
+/* Color 2 */
+.bg-color-2 {
+    background-color: var(--kintaro-color-2);
+}
+
+.bg-color-2-transparent {
+    background-color: var(--kintaro-color-2-transparent);
+}
+
+/* Color 3 */
+.bg-color-3 {
+    background-color: var(--kintaro-color-3);
+}
+
+.bg-color-3-transparent {
+    background-color: var(--kintaro-color-3-transparent);
+}
+
+/* Accent */
+.bg-accent {
+    background-color: var(--kintaro-accent-color);
+}
+
+.bg-accent-transparent {
+    background-color: var(--kintaro-accent-color-transparent);
+}
+
+/* Success */
+.bg-success {
+    background-color: var(--kintaro-success-color);
+}
+
+.bg-success-transparent {
+    background-color: var(--kintaro-success-color-transparent);
+}
+
+/* Warning */
+.bg-warning {
+    background-color: var(--kintaro-warning-color);
+}
+
+.bg-warning-transparent {
+    background-color: var(--kintaro-warning-color-transparent);
+}
+
+/* Error */
+.bg-error {
+    background-color: var(--kintaro-error-color);
+}
+
+.bg-error-transparent {
+    background-color: var(--kintaro-error-color-transparent);
+}
+
+/**********background-color-end**********/

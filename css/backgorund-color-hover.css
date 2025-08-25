@@ -1,0 +1,66 @@
+/**********background-color-hover**********/
+
+/* Color 1 */
+.hover\:bg-color-1:hover {
+    background-color: var(--kintaro-color-1);
+}
+
+.hover\:bg-color-1-transparent:hover {
+    background-color: var(--kintaro-color-1-transparent);
+}
+
+/* Color 2 */
+.hover\:bg-color-2:hover {
+    background-color: var(--kintaro-color-2);
+}
+
+.hover\:bg-color-2-transparent:hover {
+    background-color: var(--kintaro-color-2-transparent);
+}
+
+/* Color 3 */
+.hover\:bg-color-3:hover {
+    background-color: var(--kintaro-color-3);
+}
+
+.hover\:bg-color-3-transparent:hover {
+    background-color: var(--kintaro-color-3-transparent);
+}
+
+/* Accent */
+.hover\:bg-accent:hover {
+    background-color: var(--kintaro-accent-color);
+}
+
+.hover\:bg-accent-transparent:hover {
+    background-color: var(--kintaro-accent-color-transparent);
+}
+
+/* Success */
+.hover\:bg-success:hover {
+    background-color: var(--kintaro-success-color);
+}
+
+.hover\:bg-success-transparent:hover {
+    background-color: var(--kintaro-success-color-transparent);
+}
+
+/* Warning */
+.hover\:bg-warning:hover {
+    background-color: var(--kintaro-warning-color);
+}
+
+.hover\:bg-warning-transparent:hover {
+    background-color: var(--kintaro-warning-color-transparent);
+}
+
+/* Error */
+.hover\:bg-error:hover {
+    background-color: var(--kintaro-error-color);
+}
+
+.hover\:bg-error-transparent:hover {
+    background-color: var(--kintaro-error-color-transparent);
+}
+
+/**********background-color-hover-end**********/

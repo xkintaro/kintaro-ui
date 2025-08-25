@@ -1,0 +1,124 @@
+/**********border-color**********/
+
+/* Default Border */
+.border-color {
+    border-color: var(--kintaro-border);
+}
+
+.hover\:border-color:hover {
+    border-color: var(--kintaro-border);
+}
+
+/* Accent */
+.border-accent {
+    border-color: var(--kintaro-accent-color);
+}
+
+.border-accent-transparent {
+    border-color: var(--kintaro-accent-color-transparent);
+}
+
+.hover\:border-accent:hover {
+    border-color: var(--kintaro-accent-color);
+}
+
+.hover\:border-accent-transparent:hover {
+    border-color: var(--kintaro-accent-color-transparent);
+}
+
+/* Success */
+.border-success {
+    border-color: var(--kintaro-success-color);
+}
+
+.border-success-transparent {
+    border-color: var(--kintaro-success-color-transparent);
+}
+
+.hover\:border-success:hover {
+    border-color: var(--kintaro-success-color);
+}
+
+.hover\:border-success-transparent:hover {
+    border-color: var(--kintaro-success-color-transparent);
+}
+
+/* Warning */
+.border-warning {
+    border-color: var(--kintaro-warning-color);
+}
+
+.border-warning-transparent {
+    border-color: var(--kintaro-warning-color-transparent);
+}
+
+.hover\:border-warning:hover {
+    border-color: var(--kintaro-warning-color);
+}
+
+.hover\:border-warning-transparent:hover {
+    border-color: var(--kintaro-warning-color-transparent);
+}
+
+/* Error */
+.border-error {
+    border-color: var(--kintaro-error-color);
+}
+
+.border-error-transparent {
+    border-color: var(--kintaro-error-color-transparent);
+}
+
+.hover\:border-error:hover {
+    border-color: var(--kintaro-error-color);
+}
+
+.hover\:border-error-transparent:hover {
+    border-color: var(--kintaro-error-color-transparent);
+}
+
+/**********border-color-end**********/
+
+/**********border-width**********/
+
+.border-0 {
+    border-width: 0;
+}
+
+.border-1 {
+    border-width: 1px;
+}
+
+.border-2 {
+    border-width: 2px;
+}
+
+.border-4 {
+    border-width: 4px;
+}
+
+.border-5 {
+    border-width: 4px;
+}
+
+/**********border-width-end**********/
+
+/**********border-style**********/
+
+.border-solid {
+    border-style: solid;
+}
+
+.border-dashed {
+    border-style: dashed;
+}
+
+.border-dotted {
+    border-style: dotted;
+}
+
+.border-none {
+    border-style: none;
+}
+
+/**********border-style-end**********/

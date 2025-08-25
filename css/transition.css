@@ -1,0 +1,15 @@
+/**********transition**********/
+
+.transition {
+    transition: var(--kintaro-transition-1);
+}
+
+.transition-all {
+    transition: var(--kintaro-transition-1);
+}
+
+.transition-none {
+    transition: none;
+}
+
+/**********transition-end**********/

@@ -1,0 +1,66 @@
+/**********text-color**********/
+
+/* Color 1 */
+.text-color-1 {
+    color: var(--kintaro-text-color-1);
+}
+
+.text-color-1-transparent {
+    color: var(--kintaro-text-color-1-transparent);
+}
+
+/* Color 2 */
+.text-color-2 {
+    color: var(--kintaro-text-color-2);
+}
+
+.text-color-2-transparent {
+    color: var(--kintaro-text-color-2-transparent);
+}
+
+/* Disabled */
+.text-color-disabled {
+    color: var(--kintaro-text-color-disabled);
+}
+
+.text-color-disabled-transparent {
+    color: var(--kintaro-text-color-disabled-transparent);
+}
+
+/* Accent */
+.text-accent {
+    color: var(--kintaro-accent-color);
+}
+
+.text-accent-transparent {
+    color: var(--kintaro-accent-color-transparent);
+}
+
+/* Success */
+.text-success {
+    color: var(--kintaro-success-color);
+}
+
+.text-success-transparent {
+    color: var(--kintaro-success-color-transparent);
+}
+
+/* Warning */
+.text-warning {
+    color: var(--kintaro-warning-color);
+}
+
+.text-warning-transparent {
+    color: var(--kintaro-warning-color-transparent);
+}
+
+/* Error */
+.text-error {
+    color: var(--kintaro-error-color);
+}
+
+.text-error-transparent {
+    color: var(--kintaro-error-color-transparent);
+}
+
+/**********text-color-end**********/

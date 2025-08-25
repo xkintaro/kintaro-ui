@@ -1,0 +1,15 @@
+/**********border-radius**********/
+
+.rounded {
+    border-radius: var(--kintaro-border-radius-1);
+}
+
+.rounded-full {
+    border-radius: 50%;
+}
+
+.rounded-none {
+    border-radius: 0;
+}
+
+/**********border-radius-end**********/
