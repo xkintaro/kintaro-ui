@@ -1,36 +1,36 @@
 /* Special Height Values */
 .h-0 {
-    height: 0;
+    height: 0 !important;
 }
 
 .h-screen {
-    height: 100vh;
+    height: 100vh !important;
 }
 
 .h-auto {
-    height: auto;
+    height: auto !important;
 }
 
 .h-fit {
-    height: fit-content;
+    height: fit-content !important;
 }
 
 .h-max {
-    height: max-content;
+    height: max-content !important;
 }
 
 .h-min {
-    height: min-content;
+    height: min-content !important;
 }
 
 .h-unset {
-    height: unset;
+    height: unset !important;
 }
 
 .h-initial {
-    height: initial;
+    height: initial !important;
 }
 
 .h-inherit {
-    height: inherit;
+    height: inherit !important;
 }

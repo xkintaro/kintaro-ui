@@ -1,31 +1,215 @@
 /**********flex-direction**********/
 
 .flex-row {
-    flex-direction: row;
+    flex-direction: row !important;
 }
 
 .flex-row-reverse {
-    flex-direction: row-reverse;
+    flex-direction: row-reverse !important;
 }
 
 .flex-col {
-    flex-direction: column;
+    flex-direction: column !important;
 }
 
 .flex-col-reverse {
-    flex-direction: column-reverse;
+    flex-direction: column-reverse !important;
 }
 
 .flex-wrap {
-    flex-wrap: wrap;
+    flex-wrap: wrap !important;
 }
 
 .flex-wrap-reverse {
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse !important;
 }
 
 .flex-nowrap {
-    flex-wrap: nowrap;
+    flex-wrap: nowrap !important;
 }
 
 /**********flex-direction-end**********/
+
+/**********flex-direction-media**********/
+
+@media (max-width: var(--media-xs)) {
+    [class*="media-xs:flex-row"] {
+        flex-direction: row !important;
+    }
+
+    [class*="media-xs:flex-row-reverse"] {
+        flex-direction: row-reverse !important;
+    }
+
+    [class*="media-xs:flex-col"] {
+        flex-direction: column !important;
+    }
+
+    [class*="media-xs:flex-col-reverse"] {
+        flex-direction: column-reverse !important;
+    }
+
+    [class*="media-xs:flex-wrap"] {
+        flex-wrap: wrap !important;
+    }
+
+    [class*="media-xs:flex-wrap-reverse"] {
+        flex-wrap: wrap-reverse !important;
+    }
+
+    [class*="media-xs:flex-nowrap"] {
+        flex-wrap: nowrap !important;
+    }
+}
+
+@media (max-width: var(--media-sm)) {
+    [class*="media-sm:flex-row"] {
+        flex-direction: row !important;
+    }
+
+    [class*="media-sm:flex-row-reverse"] {
+        flex-direction: row-reverse !important;
+    }
+
+    [class*="media-sm:flex-col"] {
+        flex-direction: column !important;
+    }
+
+    [class*="media-sm:flex-col-reverse"] {
+        flex-direction: column-reverse !important;
+    }
+
+    [class*="media-sm:flex-wrap"] {
+        flex-wrap: wrap !important;
+    }
+
+    [class*="media-sm:flex-wrap-reverse"] {
+        flex-wrap: wrap-reverse !important;
+    }
+
+    [class*="media-sm:flex-nowrap"] {
+        flex-wrap: nowrap !important;
+    }
+}
+
+@media (max-width: var(--media-md)) {
+    [class*="media-md:flex-row"] {
+        flex-direction: row !important;
+    }
+
+    [class*="media-md:flex-row-reverse"] {
+        flex-direction: row-reverse !important;
+    }
+
+    [class*="media-md:flex-col"] {
+        flex-direction: column !important;
+    }
+
+    [class*="media-md:flex-col-reverse"] {
+        flex-direction: column-reverse !important;
+    }
+
+    [class*="media-md:flex-wrap"] {
+        flex-wrap: wrap !important;
+    }
+
+    [class*="media-md:flex-wrap-reverse"] {
+        flex-wrap: wrap-reverse !important;
+    }
+
+    [class*="media-md:flex-nowrap"] {
+        flex-wrap: nowrap !important;
+    }
+}
+
+@media (max-width: var(--media-lg)) {
+    [class*="media-lg:flex-row"] {
+        flex-direction: row !important;
+    }
+
+    [class*="media-lg:flex-row-reverse"] {
+        flex-direction: row-reverse !important;
+    }
+
+    [class*="media-lg:flex-col"] {
+        flex-direction: column !important;
+    }
+
+    [class*="media-lg:flex-col-reverse"] {
+        flex-direction: column-reverse !important;
+    }
+
+    [class*="media-lg:flex-wrap"] {
+        flex-wrap: wrap !important;
+    }
+
+    [class*="media-lg:flex-wrap-reverse"] {
+        flex-wrap: wrap-reverse !important;
+    }
+
+    [class*="media-lg:flex-nowrap"] {
+        flex-wrap: nowrap !important;
+    }
+}
+
+@media (max-width: var(--media-xl)) {
+    [class*="media-xl:flex-row"] {
+        flex-direction: row !important;
+    }
+
+    [class*="media-xl:flex-row-reverse"] {
+        flex-direction: row-reverse !important;
+    }
+
+    [class*="media-xl:flex-col"] {
+        flex-direction: column !important;
+    }
+
+    [class*="media-xl:flex-col-reverse"] {
+        flex-direction: column-reverse !important;
+    }
+
+    [class*="media-xl:flex-wrap"] {
+        flex-wrap: wrap !important;
+    }
+
+    [class*="media-xl:flex-wrap-reverse"] {
+        flex-wrap: wrap-reverse !important;
+    }
+
+    [class*="media-xl:flex-nowrap"] {
+        flex-wrap: nowrap !important;
+    }
+}
+
+@media (max-width: var(--media-xxl)) {
+    [class*="media-xxl:flex-row"] {
+        flex-direction: row !important;
+    }
+
+    [class*="media-xxl:flex-row-reverse"] {
+        flex-direction: row-reverse !important;
+    }
+
+    [class*="media-xxl:flex-col"] {
+        flex-direction: column !important;
+    }
+
+    [class*="media-xxl:flex-col-reverse"] {
+        flex-direction: column-reverse !important;
+    }
+
+    [class*="media-xxl:flex-wrap"] {
+        flex-wrap: wrap !important;
+    }
+
+    [class*="media-xxl:flex-wrap-reverse"] {
+        flex-wrap: wrap-reverse !important;
+    }
+
+    [class*="media-xxl:flex-nowrap"] {
+        flex-wrap: nowrap !important;
+    }
+}
+
+/**********flex-direction-media-end**********/

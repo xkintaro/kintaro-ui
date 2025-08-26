@@ -14,12 +14,12 @@
     border-color: var(--kintaro-accent-color) !important;
 }
 
-.border-accent-transparent {
-    border-color: var(--kintaro-accent-color-transparent) !important;
-}
-
 .hover\:border-accent:hover {
     border-color: var(--kintaro-accent-color) !important;
+}
+
+.border-accent-transparent {
+    border-color: var(--kintaro-accent-color-transparent) !important;
 }
 
 .hover\:border-accent-transparent:hover {
@@ -31,12 +31,12 @@
     border-color: var(--kintaro-success-color) !important;
 }
 
-.border-success-transparent {
-    border-color: var(--kintaro-success-color-transparent) !important;
-}
-
 .hover\:border-success:hover {
     border-color: var(--kintaro-success-color) !important;
+}
+
+.border-success-transparent {
+    border-color: var(--kintaro-success-color-transparent) !important;
 }
 
 .hover\:border-success-transparent:hover {
@@ -48,12 +48,12 @@
     border-color: var(--kintaro-warning-color) !important;
 }
 
-.border-warning-transparent {
-    border-color: var(--kintaro-warning-color-transparent) !important;
-}
-
 .hover\:border-warning:hover {
     border-color: var(--kintaro-warning-color) !important;
+}
+
+.border-warning-transparent {
+    border-color: var(--kintaro-warning-color-transparent) !important;
 }
 
 .hover\:border-warning-transparent:hover {
@@ -65,12 +65,12 @@
     border-color: var(--kintaro-error-color) !important;
 }
 
-.border-error-transparent {
-    border-color: var(--kintaro-error-color-transparent) !important;
-}
-
 .hover\:border-error:hover {
     border-color: var(--kintaro-error-color) !important;
+}
+
+.border-error-transparent {
+    border-color: var(--kintaro-error-color-transparent) !important;
 }
 
 .hover\:border-error-transparent:hover {
@@ -78,47 +78,3 @@
 }
 
 /**********border-color-end**********/
-
-/**********border-width**********/
-
-.border-0 {
-    border-width: 0 !important;
-}
-
-.border-1 {
-    border-width: 1px !important;
-}
-
-.border-2 {
-    border-width: 2px !important;
-}
-
-.border-4 {
-    border-width: 4px !important;
-}
-
-.border-5 {
-    border-width: 4px !important;
-}
-
-/**********border-width-end**********/
-
-/**********border-style**********/
-
-.border-solid {
-    border-style: solid !important;
-}
-
-.border-dashed {
-    border-style: dashed !important;
-}
-
-.border-dotted {
-    border-style: dotted !important;
-}
-
-.border-none {
-    border-style: none !important;
-}
-
-/**********border-style-end**********/

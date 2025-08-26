@@ -67,6 +67,13 @@
 
   --popup-z-index: 999;
   --audio-player-z-index: 998;
+
+  --media-xs: 576px;
+  --media-sm: 768px;
+  --media-md: 992px;
+  --media-lg: 1200px;
+  --media-xl: 1440px;
+  --media-xxl: 1600px;
 }
 
 @keyframes fadeUp {

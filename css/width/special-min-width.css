@@ -1,36 +1,36 @@
 /* Special Min Width Values */
 .min-w-0 {
-    min-width: 0;
+    min-width: 0 !important;
 }
 
 .min-w-screen {
-    min-width: 100vw;
+    min-width: 100vw !important;
 }
 
 .min-w-auto {
-    min-width: auto;
+    min-width: auto !important;
 }
 
 .min-w-fit {
-    min-width: fit-content;
+    min-width: fit-content !important;
 }
 
 .min-w-max {
-    min-width: max-content;
+    min-width: max-content !important;
 }
 
 .min-w-min {
-    min-width: min-content;
+    min-width: min-content !important;
 }
 
 .min-w-unset {
-    min-width: unset;
+    min-width: unset !important;
 }
 
 .min-w-initial {
-    min-width: initial;
+    min-width: initial !important;
 }
 
 .min-w-inherit {
-    min-width: inherit;
+    min-width: inherit !important;
 }

@@ -1,23 +1,157 @@
 /**********align-items**********/
 
 .items-start {
-    align-items: flex-start;
+    align-items: flex-start !important;
 }
 
 .items-end {
-    align-items: flex-end;
+    align-items: flex-end !important;
 }
 
 .items-center {
-    align-items: center;
+    align-items: center !important;
 }
 
 .items-baseline {
-    align-items: baseline;
+    align-items: baseline !important;
 }
 
 .items-stretch {
-    align-items: stretch;
+    align-items: stretch !important;
+}
+
+/**********align-items-media**********/
+
+@media (max-width: var(--media-xs)) {
+    [class*="media-xs:items-start"] {
+        align-items: flex-start !important;
+    }
+
+    [class*="media-xs:items-end"] {
+        align-items: flex-end !important;
+    }
+
+    [class*="media-xs:items-center"] {
+        align-items: center !important;
+    }
+
+    [class*="media-xs:items-baseline"] {
+        align-items: baseline !important;
+    }
+
+    [class*="media-xs:items-stretch"] {
+        align-items: stretch !important;
+    }
+}
+
+@media (max-width: var(--media-sm)) {
+    [class*="media-sm:items-start"] {
+        align-items: flex-start !important;
+    }
+
+    [class*="media-sm:items-end"] {
+        align-items: flex-end !important;
+    }
+
+    [class*="media-sm:items-center"] {
+        align-items: center !important;
+    }
+
+    [class*="media-sm:items-baseline"] {
+        align-items: baseline !important;
+    }
+
+    [class*="media-sm:items-stretch"] {
+        align-items: stretch !important;
+    }
+}
+
+@media (max-width: var(--media-md)) {
+    [class*="media-md:items-start"] {
+        align-items: flex-start !important;
+    }
+
+    [class*="media-md:items-end"] {
+        align-items: flex-end !important;
+    }
+
+    [class*="media-md:items-center"] {
+        align-items: center !important;
+    }
+
+    [class*="media-md:items-baseline"] {
+        align-items: baseline !important;
+    }
+
+    [class*="media-md:items-stretch"] {
+        align-items: stretch !important;
+    }
+}
+
+@media (max-width: var(--media-lg)) {
+    [class*="media-lg:items-start"] {
+        align-items: flex-start !important;
+    }
+
+    [class*="media-lg:items-end"] {
+        align-items: flex-end !important;
+    }
+
+    [class*="media-lg:items-center"] {
+        align-items: center !important;
+    }
+
+    [class*="media-lg:items-baseline"] {
+        align-items: baseline !important;
+    }
+
+    [class*="media-lg:items-stretch"] {
+        align-items: stretch !important;
+    }
+}
+
+@media (max-width: var(--media-xl)) {
+    [class*="media-xl:items-start"] {
+        align-items: flex-start !important;
+    }
+
+    [class*="media-xl:items-end"] {
+        align-items: flex-end !important;
+    }
+
+    [class*="media-xl:items-center"] {
+        align-items: center !important;
+    }
+
+    [class*="media-xl:items-baseline"] {
+        align-items: baseline !important;
+    }
+
+    [class*="media-xl:items-stretch"] {
+        align-items: stretch !important;
+    }
+}
+
+@media (max-width: var(--media-xxl)) {
+    [class*="media-xxl:items-start"] {
+        align-items: flex-start !important;
+    }
+
+    [class*="media-xxl:items-end"] {
+        align-items: flex-end !important;
+    }
+
+    [class*="media-xxl:items-center"] {
+        align-items: center !important;
+    }
+
+    [class*="media-xxl:items-baseline"] {
+        align-items: baseline !important;
+    }
+
+    [class*="media-xxl:items-stretch"] {
+        align-items: stretch !important;
+    }
 }
 
 /**********align-items-end**********/

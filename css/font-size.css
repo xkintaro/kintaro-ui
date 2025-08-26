@@ -1,27 +1,27 @@
 /**********size**********/
 
 .size-xs {
-    font-size: var(--kintaro-font-xs);
+    font-size: var(--kintaro-font-xs) !important;
 }
 
 .size-sm {
-    font-size: var(--kintaro-font-sm);
+    font-size: var(--kintaro-font-sm) !important;
 }
 
 .size-md {
-    font-size: var(--kintaro-font-md);
+    font-size: var(--kintaro-font-md) !important;
 }
 
 .size-lg {
-    font-size: var(--kintaro-font-lg);
+    font-size: var(--kintaro-font-lg) !important;
 }
 
 .size-xl {
-    font-size: var(--kintaro-font-xl);
+    font-size: var(--kintaro-font-xl) !important;
 }
 
 .size-xxl {
-    font-size: var(--kintaro-font-xxl);
+    font-size: var(--kintaro-font-xxl) !important;
 }
 
 /**********size-end**********/

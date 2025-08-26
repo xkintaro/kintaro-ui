@@ -1,27 +1,185 @@
 /**********justify-content**********/
 
 .justify-start {
-    justify-content: flex-start;
+    justify-content: flex-start !important;
 }
 
 .justify-end {
-    justify-content: flex-end;
+    justify-content: flex-end !important;
 }
 
 .justify-center {
-    justify-content: center;
+    justify-content: center !important;
 }
 
 .justify-between {
-    justify-content: space-between;
+    justify-content: space-between !important;
 }
 
 .justify-around {
-    justify-content: space-around;
+    justify-content: space-around !important;
 }
 
 .justify-evenly {
-    justify-content: space-evenly;
+    justify-content: space-evenly !important;
+}
+
+/**********justify-content-media**********/
+
+@media (max-width: var(--media-xs)) {
+    [class*="media-xs:justify-start"] {
+        justify-content: flex-start !important;
+    }
+
+    [class*="media-xs:justify-end"] {
+        justify-content: flex-end !important;
+    }
+
+    [class*="media-xs:justify-center"] {
+        justify-content: center !important;
+    }
+
+    [class*="media-xs:justify-between"] {
+        justify-content: space-between !important;
+    }
+
+    [class*="media-xs:justify-around"] {
+        justify-content: space-around !important;
+    }
+
+    [class*="media-xs:justify-evenly"] {
+        justify-content: space-evenly !important;
+    }
+}
+
+@media (max-width: var(--media-sm)) {
+    [class*="media-sm:justify-start"] {
+        justify-content: flex-start !important;
+    }
+
+    [class*="media-sm:justify-end"] {
+        justify-content: flex-end !important;
+    }
+
+    [class*="media-sm:justify-center"] {
+        justify-content: center !important;
+    }
+
+    [class*="media-sm:justify-between"] {
+        justify-content: space-between !important;
+    }
+
+    [class*="media-sm:justify-around"] {
+        justify-content: space-around !important;
+    }
+
+    [class*="media-sm:justify-evenly"] {
+        justify-content: space-evenly !important;
+    }
+}
+
+@media (max-width: var(--media-md)) {
+    [class*="media-md:justify-start"] {
+        justify-content: flex-start !important;
+    }
+
+    [class*="media-md:justify-end"] {
+        justify-content: flex-end !important;
+    }
+
+    [class*="media-md:justify-center"] {
+        justify-content: center !important;
+    }
+
+    [class*="media-md:justify-between"] {
+        justify-content: space-between !important;
+    }
+
+    [class*="media-md:justify-around"] {
+        justify-content: space-around !important;
+    }
+
+    [class*="media-md:justify-evenly"] {
+        justify-content: space-evenly !important;
+    }
+}
+
+@media (max-width: var(--media-lg)) {
+    [class*="media-lg:justify-start"] {
+        justify-content: flex-start !important;
+    }
+
+    [class*="media-lg:justify-end"] {
+        justify-content: flex-end !important;
+    }
+
+    [class*="media-lg:justify-center"] {
+        justify-content: center !important;
+    }
+
+    [class*="media-lg:justify-between"] {
+        justify-content: space-between !important;
+    }
+
+    [class*="media-lg:justify-around"] {
+        justify-content: space-around !important;
+    }
+
+    [class*="media-lg:justify-evenly"] {
+        justify-content: space-evenly !important;
+    }
+}
+
+@media (max-width: var(--media-xl)) {
+    [class*="media-xl:justify-start"] {
+        justify-content: flex-start !important;
+    }
+
+    [class*="media-xl:justify-end"] {
+        justify-content: flex-end !important;
+    }
+
+    [class*="media-xl:justify-center"] {
+        justify-content: center !important;
+    }
+
+    [class*="media-xl:justify-between"] {
+        justify-content: space-between !important;
+    }
+
+    [class*="media-xl:justify-around"] {
+        justify-content: space-around !important;
+    }
+
+    [class*="media-xl:justify-evenly"] {
+        justify-content: space-evenly !important;
+    }
+}
+
+@media (max-width: var(--media-xxl)) {
+    [class*="media-xxl:justify-start"] {
+        justify-content: flex-start !important;
+    }
+
+    [class*="media-xxl:justify-end"] {
+        justify-content: flex-end !important;
+    }
+
+    [class*="media-xxl:justify-center"] {
+        justify-content: center !important;
+    }
+
+    [class*="media-xxl:justify-between"] {
+        justify-content: space-between !important;
+    }
+
+    [class*="media-xxl:justify-around"] {
+        justify-content: space-around !important;
+    }
+
+    [class*="media-xxl:justify-evenly"] {
+        justify-content: space-evenly !important;
+    }
 }
 
 /**********justify-content-end**********/

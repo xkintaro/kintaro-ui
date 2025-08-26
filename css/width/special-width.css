@@ -1,36 +1,36 @@
 /* Special Width Values */
 .w-0 {
-    width: 0;
+    width: 0 !important;
 }
 
 .w-screen {
-    width: 100vw;
+    width: 100vw !important;
 }
 
 .w-auto {
-    width: auto;
+    width: auto !important;
 }
 
 .w-fit {
-    width: fit-content;
+    width: fit-content !important;
 }
 
 .w-max {
-    width: max-content;
+    width: max-content !important;
 }
 
 .w-min {
-    width: min-content;
+    width: min-content !important;
 }
 
 .w-unset {
-    width: unset;
+    width: unset !important;
 }
 
 .w-initial {
-    width: initial;
+    width: initial !important;
 }
 
 .w-inherit {
-    width: inherit;
+    width: inherit !important;
 }

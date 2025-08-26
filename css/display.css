@@ -1,19 +1,131 @@
 /**********display**********/
 
 .hidden {
-    display: none;
+    display: none !important;
 }
 
 .block {
-    display: block;
+    display: block !important;
 }
 
 .flex {
-    display: flex;
+    display: flex !important;
 }
 
 .inline-flex {
-    display: inline-flex;
+    display: inline-flex !important;
 }
 
 /**********display-end**********/
+
+/**********display-media**********/
+
+@media (max-width: var(--media-xs)) {
+    [class*="media-xs:hidden"] {
+        display: none !important;
+    }
+
+    [class*="media-xs:block"] {
+        display: block !important;
+    }
+
+    [class*="media-xs:flex"] {
+        display: flex !important;
+    }
+
+    [class*="media-xs:inline-flex"] {
+        display: inline-flex !important;
+    }
+}
+
+@media (max-width: var(--media-sm)) {
+    [class*="media-sm:hidden"] {
+        display: none !important;
+    }
+
+    [class*="media-sm:block"] {
+        display: block !important;
+    }
+
+    [class*="media-sm:flex"] {
+        display: flex !important;
+    }
+
+    [class*="media-sm:inline-flex"] {
+        display: inline-flex !important;
+    }
+}
+
+@media (max-width: var(--media-md)) {
+    [class*="media-md:hidden"] {
+        display: none !important;
+    }
+
+    [class*="media-md:block"] {
+        display: block !important;
+    }
+
+    [class*="media-md:flex"] {
+        display: flex !important;
+    }
+
+    [class*="media-md:inline-flex"] {
+        display: inline-flex !important;
+    }
+}
+
+@media (max-width: var(--media-lg)) {
+    [class*="media-lg:hidden"] {
+        display: none !important;
+    }
+
+    [class*="media-lg:block"] {
+        display: block !important;
+    }
+
+    [class*="media-lg:flex"] {
+        display: flex !important;
+    }
+
+    [class*="media-lg:inline-flex"] {
+        display: inline-flex !important;
+    }
+}
+
+@media (max-width: var(--media-xl)) {
+    [class*="media-xl:hidden"] {
+        display: none !important;
+    }
+
+    [class*="media-xl:block"] {
+        display: block !important;
+    }
+
+    [class*="media-xl:flex"] {
+        display: flex !important;
+    }
+
+    [class*="media-xl:inline-flex"] {
+        display: inline-flex !important;
+    }
+}
+
+@media (max-width: var(--media-xxl)) {
+    [class*="media-xxl:hidden"] {
+        display: none !important;
+    }
+
+    [class*="media-xxl:block"] {
+        display: block !important;
+    }
+
+    [class*="media-xxl:flex"] {
+        display: flex !important;
+    }
+
+    [class*="media-xxl:inline-flex"] {
+        display: inline-flex !important;
+    }
+}
+
+/**********display-media-end**********/
