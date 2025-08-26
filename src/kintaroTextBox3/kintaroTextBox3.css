@@ -38,11 +38,11 @@
 }
 
 .kintaro-txtbox-3-icon:hover {
-    color: var(--kintaro-accent-color-1);
+    color: var(--kintaro-accent-color);
 }
 
 .kintaro-txtbox-3:focus+.kintaro-txtbox-3-label {
-    color: var(--kintaro-accent-color-1);
+    color: var(--kintaro-accent-color);
     font-size: var(--kintaro-font-sm);
     top: 15px;
 }

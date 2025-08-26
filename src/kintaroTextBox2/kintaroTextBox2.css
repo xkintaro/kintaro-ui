@@ -27,7 +27,7 @@
 }
 
 .kintaro-txtbox-2:focus+.kintaro-txtbox-2-label {
-    color: var(--kintaro-accent-color-1);
+    color: var(--kintaro-accent-color);
     font-size: var(--kintaro-font-sm);
     top: 15px;
 }

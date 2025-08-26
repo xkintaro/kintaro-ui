@@ -22,7 +22,7 @@
     color: var(--kintaro-text-color-1);
     box-shadow: var(--kintaro-box-shadow);
     transition: var(--kintaro-transition-1);
-    background: linear-gradient(135deg, var(--kintaro-accent-color-1), var(--kintaro-accent-color-1-transparent));
+    background: linear-gradient(135deg, var(--kintaro-accent-color), var(--kintaro-accent-color-transparent));
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,7 +85,7 @@
 
 .kintaro-audio-player-logo {
     border-radius: var(--kintaro-border-radius-1);
-    background: linear-gradient(135deg, var(--kintaro-accent-color-1), var(--kintaro-accent-color-1-transparent));
+    background: linear-gradient(135deg, var(--kintaro-accent-color), var(--kintaro-accent-color-transparent));
     display: flex;
     align-items: center;
     justify-content: center;
@@ -138,7 +138,7 @@
 }
 
 .kintaro-audio-player-progress-input::-webkit-slider-thumb {
-    background: linear-gradient(135deg, var(--kintaro-accent-color-1), var(--kintaro-accent-color-1-transparent));
+    background: linear-gradient(135deg, var(--kintaro-accent-color), var(--kintaro-accent-color-transparent));
     -webkit-appearance: none;
     cursor: pointer;
     height: 14px;
@@ -179,7 +179,7 @@
 }
 
 .kintaro-audio-player-volume-slider::-webkit-slider-thumb {
-    background: linear-gradient(135deg, var(--kintaro-accent-color-1), var(--kintaro-accent-color-1-transparent));
+    background: linear-gradient(135deg, var(--kintaro-accent-color), var(--kintaro-accent-color-transparent));
     transition: var(--kintaro-transition-1);
     -webkit-appearance: none;
     cursor: pointer;
@@ -216,14 +216,14 @@
 }
 
 .kintaro-audio-player-control-button.active {
-    color: var(--kintaro-accent-color-1);
+    color: var(--kintaro-accent-color);
 }
 
 .kintaro-audio-player-play-pause-button {
     color: var(--kintaro-text-color-1);
     transition: var(--kintaro-transition-1);
     box-shadow: var(--kintaro-box-shadow);
-    background: linear-gradient(135deg, var(--kintaro-accent-color-1), var(--kintaro-accent-color-1-transparent));
+    background: linear-gradient(135deg, var(--kintaro-accent-color), var(--kintaro-accent-color-transparent));
     border: none;
     display: flex;
     align-items: center;
@@ -272,7 +272,7 @@
 }
 
 .kintaro-audio-player-playlist-item-indicator {
-    background: var(--kintaro-accent-color-1);
+    background: var(--kintaro-accent-color);
     width: 8px;
     height: 8px;
     border-radius: 50%;

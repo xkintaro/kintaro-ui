@@ -33,12 +33,12 @@
      }
 
      .kintaro-checkbox-layout:hover .kintaro-checkmark {
-         border-color: var(--kintaro-accent-color-1);
+         border-color: var(--kintaro-accent-color);
      }
 
      .kintaro-checkbox:checked~.kintaro-checkmark {
-         background-color: var(--kintaro-accent-color-1);
-         border-color: var(--kintaro-accent-color-1);
+         background-color: var(--kintaro-accent-color);
+         border-color: var(--kintaro-accent-color);
          animation: bounce 0.5s;
      }
 
