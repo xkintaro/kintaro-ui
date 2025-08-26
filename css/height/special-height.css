@@ -1,4 +1,6 @@
-/* Special Height Values */
+/********** height special **********/
+
+/* Default Height Classes */
 .h-0 {
     height: 0 !important;
 }
@@ -23,14 +25,112 @@
     height: min-content !important;
 }
 
-.h-unset {
-    height: unset !important;
+/********** xs (≤576px) **********/
+@media (max-width: 576px) {
+    .media-xs\:h-0 {
+        height: 0 !important;
+    }
+
+    .media-xs\:h-screen {
+        height: 100vh !important;
+    }
+
+    .media-xs\:h-auto {
+        height: auto !important;
+    }
+
+    .media-xs\:h-fit {
+        height: fit-content !important;
+    }
+
+    .media-xs\:h-max {
+        height: max-content !important;
+    }
+
+    .media-xs\:h-min {
+        height: min-content !important;
+    }
 }
 
-.h-initial {
-    height: initial !important;
+/********** sm (≤768px) **********/
+@media (max-width: 768px) {
+    .media-sm\:h-0 {
+        height: 0 !important;
+    }
+
+    .media-sm\:h-screen {
+        height: 100vh !important;
+    }
+
+    .media-sm\:h-auto {
+        height: auto !important;
+    }
+
+    .media-sm\:h-fit {
+        height: fit-content !important;
+    }
+
+    .media-sm\:h-max {
+        height: max-content !important;
+    }
+
+    .media-sm\:h-min {
+        height: min-content !important;
+    }
 }
 
-.h-inherit {
-    height: inherit !important;
+/********** md (≤992px) **********/
+@media (max-width: 992px) {
+    .media-md\:h-0 {
+        height: 0 !important;
+    }
+
+    .media-md\:h-screen {
+        height: 100vh !important;
+    }
+
+    .media-md\:h-auto {
+        height: auto !important;
+    }
+
+    .media-md\:h-fit {
+        height: fit-content !important;
+    }
+
+    .media-md\:h-max {
+        height: max-content !important;
+    }
+
+    .media-md\:h-min {
+        height: min-content !important;
+    }
 }
+
+/********** lg (≤1200px) **********/
+@media (max-width: 1200px) {
+    .media-lg\:h-0 {
+        height: 0 !important;
+    }
+
+    .media-lg\:h-screen {
+        height: 100vh !important;
+    }
+
+    .media-lg\:h-auto {
+        height: auto !important;
+    }
+
+    .media-lg\:h-fit {
+        height: fit-content !important;
+    }
+
+    .media-lg\:h-max {
+        height: max-content !important;
+    }
+
+    .media-lg\:h-min {
+        height: min-content !important;
+    }
+}
+
+/********** height special end **********/

@@ -1,4 +1,6 @@
-/* Special Max Width Values */
+/********** max-width special **********/
+
+/* Default Max-Width Classes */
 .max-w-0 {
     max-width: 0 !important;
 }
@@ -23,14 +25,112 @@
     max-width: min-content !important;
 }
 
-.max-w-unset {
-    max-width: unset !important;
+/********** xs (≤576px) **********/
+@media (max-width: 576px) {
+    .media-xs\:max-w-0 {
+        max-width: 0 !important;
+    }
+
+    .media-xs\:max-w-screen {
+        max-width: 100vw !important;
+    }
+
+    .media-xs\:max-w-auto {
+        max-width: auto !important;
+    }
+
+    .media-xs\:max-w-fit {
+        max-width: fit-content !important;
+    }
+
+    .media-xs\:max-w-max {
+        max-width: max-content !important;
+    }
+
+    .media-xs\:max-w-min {
+        max-width: min-content !important;
+    }
 }
 
-.max-w-initial {
-    max-width: initial !important;
+/********** sm (≤768px) **********/
+@media (max-width: 768px) {
+    .media-sm\:max-w-0 {
+        max-width: 0 !important;
+    }
+
+    .media-sm\:max-w-screen {
+        max-width: 100vw !important;
+    }
+
+    .media-sm\:max-w-auto {
+        max-width: auto !important;
+    }
+
+    .media-sm\:max-w-fit {
+        max-width: fit-content !important;
+    }
+
+    .media-sm\:max-w-max {
+        max-width: max-content !important;
+    }
+
+    .media-sm\:max-w-min {
+        max-width: min-content !important;
+    }
 }
 
-.max-w-inherit {
-    max-width: inherit !important;
+/********** md (≤992px) **********/
+@media (max-width: 992px) {
+    .media-md\:max-w-0 {
+        max-width: 0 !important;
+    }
+
+    .media-md\:max-w-screen {
+        max-width: 100vw !important;
+    }
+
+    .media-md\:max-w-auto {
+        max-width: auto !important;
+    }
+
+    .media-md\:max-w-fit {
+        max-width: fit-content !important;
+    }
+
+    .media-md\:max-w-max {
+        max-width: max-content !important;
+    }
+
+    .media-md\:max-w-min {
+        max-width: min-content !important;
+    }
 }
+
+/********** lg (≤1200px) **********/
+@media (max-width: 1200px) {
+    .media-lg\:max-w-0 {
+        max-width: 0 !important;
+    }
+
+    .media-lg\:max-w-screen {
+        max-width: 100vw !important;
+    }
+
+    .media-lg\:max-w-auto {
+        max-width: auto !important;
+    }
+
+    .media-lg\:max-w-fit {
+        max-width: fit-content !important;
+    }
+
+    .media-lg\:max-w-max {
+        max-width: max-content !important;
+    }
+
+    .media-lg\:max-w-min {
+        max-width: min-content !important;
+    }
+}
+
+/********** max-width special end **********/

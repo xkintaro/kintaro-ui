@@ -1,4 +1,6 @@
-/* Special Min Width Values */
+/********** min-width special **********/
+
+/* Default Min-Width Classes */
 .min-w-0 {
     min-width: 0 !important;
 }
@@ -23,14 +25,112 @@
     min-width: min-content !important;
 }
 
-.min-w-unset {
-    min-width: unset !important;
+/********** xs (≤576px) **********/
+@media (max-width: 576px) {
+    .media-xs\:min-w-0 {
+        min-width: 0 !important;
+    }
+
+    .media-xs\:min-w-screen {
+        min-width: 100vw !important;
+    }
+
+    .media-xs\:min-w-auto {
+        min-width: auto !important;
+    }
+
+    .media-xs\:min-w-fit {
+        min-width: fit-content !important;
+    }
+
+    .media-xs\:min-w-max {
+        min-width: max-content !important;
+    }
+
+    .media-xs\:min-w-min {
+        min-width: min-content !important;
+    }
 }
 
-.min-w-initial {
-    min-width: initial !important;
+/********** sm (≤768px) **********/
+@media (max-width: 768px) {
+    .media-sm\:min-w-0 {
+        min-width: 0 !important;
+    }
+
+    .media-sm\:min-w-screen {
+        min-width: 100vw !important;
+    }
+
+    .media-sm\:min-w-auto {
+        min-width: auto !important;
+    }
+
+    .media-sm\:min-w-fit {
+        min-width: fit-content !important;
+    }
+
+    .media-sm\:min-w-max {
+        min-width: max-content !important;
+    }
+
+    .media-sm\:min-w-min {
+        min-width: min-content !important;
+    }
 }
 
-.min-w-inherit {
-    min-width: inherit !important;
+/********** md (≤992px) **********/
+@media (max-width: 992px) {
+    .media-md\:min-w-0 {
+        min-width: 0 !important;
+    }
+
+    .media-md\:min-w-screen {
+        min-width: 100vw !important;
+    }
+
+    .media-md\:min-w-auto {
+        min-width: auto !important;
+    }
+
+    .media-md\:min-w-fit {
+        min-width: fit-content !important;
+    }
+
+    .media-md\:min-w-max {
+        min-width: max-content !important;
+    }
+
+    .media-md\:min-w-min {
+        min-width: min-content !important;
+    }
 }
+
+/********** lg (≤1200px) **********/
+@media (max-width: 1200px) {
+    .media-lg\:min-w-0 {
+        min-width: 0 !important;
+    }
+
+    .media-lg\:min-w-screen {
+        min-width: 100vw !important;
+    }
+
+    .media-lg\:min-w-auto {
+        min-width: auto !important;
+    }
+
+    .media-lg\:min-w-fit {
+        min-width: fit-content !important;
+    }
+
+    .media-lg\:min-w-max {
+        min-width: max-content !important;
+    }
+
+    .media-lg\:min-w-min {
+        min-width: min-content !important;
+    }
+}
+
+/********** min-width special end **********/

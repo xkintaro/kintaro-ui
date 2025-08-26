@@ -110,28 +110,4 @@
     }
 }
 
-@media (max-width: var(--media-xl)) {
-    [class*="media-xl:items-start"] {
-        align-items: flex-start !important;
-    }
-
-    [class*="media-xl:items-end"] {
-        align-items: flex-end !important;
-    }
-
-    [class*="media-xl:items-center"] {
-        align-items: center !important;
-    }
-
-    [class*="media-xl:items-baseline"] {
-        align-items: baseline !important;
-    }
-
-    [class*="media-xl:items-stretch"] {
-        align-items: stretch !important;
-    }
-}
-
-
-
 /**********align-items-end**********/

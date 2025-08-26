@@ -1,4 +1,6 @@
-/* Special Max Height Values */
+/********** max-height special **********/
+
+/* Default Max-Height Classes */
 .max-h-0 {
     max-height: 0 !important;
 }
@@ -23,14 +25,112 @@
     max-height: min-content !important;
 }
 
-.max-h-unset {
-    max-height: unset !important;
+/********** xs (≤576px) **********/
+@media (max-width: 576px) {
+    .media-xs\:max-h-0 {
+        max-height: 0 !important;
+    }
+
+    .media-xs\:max-h-screen {
+        max-height: 100vh !important;
+    }
+
+    .media-xs\:max-h-auto {
+        max-height: auto !important;
+    }
+
+    .media-xs\:max-h-fit {
+        max-height: fit-content !important;
+    }
+
+    .media-xs\:max-h-max {
+        max-height: max-content !important;
+    }
+
+    .media-xs\:max-h-min {
+        max-height: min-content !important;
+    }
 }
 
-.max-h-initial {
-    max-height: initial !important;
+/********** sm (≤768px) **********/
+@media (max-width: 768px) {
+    .media-sm\:max-h-0 {
+        max-height: 0 !important;
+    }
+
+    .media-sm\:max-h-screen {
+        max-height: 100vh !important;
+    }
+
+    .media-sm\:max-h-auto {
+        max-height: auto !important;
+    }
+
+    .media-sm\:max-h-fit {
+        max-height: fit-content !important;
+    }
+
+    .media-sm\:max-h-max {
+        max-height: max-content !important;
+    }
+
+    .media-sm\:max-h-min {
+        max-height: min-content !important;
+    }
 }
 
-.max-h-inherit {
-    max-height: inherit !important;
+/********** md (≤992px) **********/
+@media (max-width: 992px) {
+    .media-md\:max-h-0 {
+        max-height: 0 !important;
+    }
+
+    .media-md\:max-h-screen {
+        max-height: 100vh !important;
+    }
+
+    .media-md\:max-h-auto {
+        max-height: auto !important;
+    }
+
+    .media-md\:max-h-fit {
+        max-height: fit-content !important;
+    }
+
+    .media-md\:max-h-max {
+        max-height: max-content !important;
+    }
+
+    .media-md\:max-h-min {
+        max-height: min-content !important;
+    }
 }
+
+/********** lg (≤1200px) **********/
+@media (max-width: 1200px) {
+    .media-lg\:max-h-0 {
+        max-height: 0 !important;
+    }
+
+    .media-lg\:max-h-screen {
+        max-height: 100vh !important;
+    }
+
+    .media-lg\:max-h-auto {
+        max-height: auto !important;
+    }
+
+    .media-lg\:max-h-fit {
+        max-height: fit-content !important;
+    }
+
+    .media-lg\:max-h-max {
+        max-height: max-content !important;
+    }
+
+    .media-lg\:max-h-min {
+        max-height: min-content !important;
+    }
+}
+
+/********** max-height special end **********/
