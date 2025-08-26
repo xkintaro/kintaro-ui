@@ -22,7 +22,7 @@
 
 /**********align-items-media**********/
 
-@media (max-width: var(--media-xs)) {
+@media (max-width: 576px) {
     [class*="media-xs:items-start"] {
         align-items: flex-start !important;
     }
@@ -44,7 +44,7 @@
     }
 }
 
-@media (max-width: var(--media-sm)) {
+@media (max-width: 768px) {
     [class*="media-sm:items-start"] {
         align-items: flex-start !important;
     }
@@ -66,7 +66,7 @@
     }
 }
 
-@media (max-width: var(--media-md)) {
+@media (max-width: 992px) {
     [class*="media-md:items-start"] {
         align-items: flex-start !important;
     }
@@ -88,7 +88,7 @@
     }
 }
 
-@media (max-width: var(--media-lg)) {
+@media (max-width: 1200px) {
     [class*="media-lg:items-start"] {
         align-items: flex-start !important;
     }
@@ -132,26 +132,6 @@
     }
 }
 
-@media (max-width: var(--media-xxl)) {
-    [class*="media-xxl:items-start"] {
-        align-items: flex-start !important;
-    }
 
-    [class*="media-xxl:items-end"] {
-        align-items: flex-end !important;
-    }
-
-    [class*="media-xxl:items-center"] {
-        align-items: center !important;
-    }
-
-    [class*="media-xxl:items-baseline"] {
-        align-items: baseline !important;
-    }
-
-    [class*="media-xxl:items-stretch"] {
-        align-items: stretch !important;
-    }
-}
 
 /**********align-items-end**********/

@@ -26,7 +26,7 @@
 
 /**********justify-content-media**********/
 
-@media (max-width: var(--media-xs)) {
+@media (max-width: 576px) {
     [class*="media-xs:justify-start"] {
         justify-content: flex-start !important;
     }
@@ -52,7 +52,7 @@
     }
 }
 
-@media (max-width: var(--media-sm)) {
+@media (max-width: 768px) {
     [class*="media-sm:justify-start"] {
         justify-content: flex-start !important;
     }
@@ -78,7 +78,7 @@
     }
 }
 
-@media (max-width: var(--media-md)) {
+@media (max-width: 992px) {
     [class*="media-md:justify-start"] {
         justify-content: flex-start !important;
     }
@@ -104,7 +104,7 @@
     }
 }
 
-@media (max-width: var(--media-lg)) {
+@media (max-width: 1200px) {
     [class*="media-lg:justify-start"] {
         justify-content: flex-start !important;
     }
@@ -126,58 +126,6 @@
     }
 
     [class*="media-lg:justify-evenly"] {
-        justify-content: space-evenly !important;
-    }
-}
-
-@media (max-width: var(--media-xl)) {
-    [class*="media-xl:justify-start"] {
-        justify-content: flex-start !important;
-    }
-
-    [class*="media-xl:justify-end"] {
-        justify-content: flex-end !important;
-    }
-
-    [class*="media-xl:justify-center"] {
-        justify-content: center !important;
-    }
-
-    [class*="media-xl:justify-between"] {
-        justify-content: space-between !important;
-    }
-
-    [class*="media-xl:justify-around"] {
-        justify-content: space-around !important;
-    }
-
-    [class*="media-xl:justify-evenly"] {
-        justify-content: space-evenly !important;
-    }
-}
-
-@media (max-width: var(--media-xxl)) {
-    [class*="media-xxl:justify-start"] {
-        justify-content: flex-start !important;
-    }
-
-    [class*="media-xxl:justify-end"] {
-        justify-content: flex-end !important;
-    }
-
-    [class*="media-xxl:justify-center"] {
-        justify-content: center !important;
-    }
-
-    [class*="media-xxl:justify-between"] {
-        justify-content: space-between !important;
-    }
-
-    [class*="media-xxl:justify-around"] {
-        justify-content: space-around !important;
-    }
-
-    [class*="media-xxl:justify-evenly"] {
         justify-content: space-evenly !important;
     }
 }
