@@ -27,6 +27,15 @@
     background-color: var(--kintaro-color-3-transparent) !important;
 }
 
+/* Color 4 */
+.hover\:bg-color-4:hover {
+    background-color: var(--kintaro-color-4) !important;
+}
+
+.hover\:bg-color-4-transparent:hover {
+    background-color: var(--kintaro-color-4-transparent) !important;
+}
+
 /* Accent */
 .hover\:bg-accent:hover {
     background-color: var(--kintaro-accent-color) !important;

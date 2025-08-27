@@ -27,6 +27,15 @@
     background-color: var(--kintaro-color-3-transparent) !important;
 }
 
+/* Color 4 */
+.bg-color-4 {
+    background-color: var(--kintaro-color-4) !important;
+}
+
+.bg-color-4-transparent {
+    background-color: var(--kintaro-color-4-transparent) !important;
+}
+
 /* Accent */
 .bg-accent {
     background-color: var(--kintaro-accent-color) !important;
