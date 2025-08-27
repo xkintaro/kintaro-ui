@@ -71,6 +71,8 @@
   --popup-z-index: 999;
   --audio-player-z-index: 998;
 
+  --navbar-height: 80px;
+
   --media-xs: 576px;
   --media-sm: 768px;
   --media-md: 992px;
@@ -96,3 +98,7 @@
 }
 
 /**********animation-end**********/
+
+.navbar-height {
+  height: var(--navbar-height) !important;
+}
