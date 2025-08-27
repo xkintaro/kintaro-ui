@@ -12,7 +12,8 @@
   --kintaro-color-3: rgb(46, 47, 51);
   --kintaro-color-3-transparent: rgb(46, 47, 51, 0.5);
 
-  --kintaro-color-4: rgb(46, 47, 51); /*only inputs*/
+  --kintaro-color-4: rgb(46, 47, 51);
+  /*only inputs*/
   --kintaro-color-4-transparent: rgb(46, 47, 51, 0.5);
 
   /* Text Colors */
@@ -91,7 +92,7 @@
 /**********animation**********/
 
 .animate-fadeup {
-  animation: var(--kintaro-animation-fadeupadeup);
+  animation: var(--kintaro-animation-fadeup);
 }
 
 /**********animation-end**********/
