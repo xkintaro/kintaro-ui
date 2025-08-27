@@ -2,11 +2,9 @@
 @import "../css/width/px-width.css";
 @import "../css/width/px-max-width.css";
 @import "../css/width/px-min-width.css";
-
 @import "../css/width/percent-width.css";
 @import "../css/width/percent-max-width.css";
 @import "../css/width/percent-min-width.css";
-
 @import "../css/width/special-width.css";
 @import "../css/width/special-max-width.css";
 @import "../css/width/special-min-width.css";
@@ -15,32 +13,64 @@
 @import "../css/height/px-height.css";
 @import "../css/height/px-max-height.css";
 @import "../css/height/px-min-height.css";
-
 @import "../css/height/vh-height.css";
 @import "../css/height/vh-max-height.css";
 @import "../css/height/vh-min-height.css";
-
 @import "../css/height/percent-height.css";
 @import "../css/height/percent-max-height.css";
 @import "../css/height/percent-min-height.css";
-
 @import "../css/height/special-height.css";
 @import "../css/height/special-max-height.css";
 @import "../css/height/special-min-height.css";
+
+/* Margin */
+@import "../css/margin/auto-margin.css";
+@import "../css/margin/special-margin.css";
+@import "../css/margin/special-axial-margin.css";
+@import "../css/margin/special-directional-margin.css";
+@import "../css/margin/px-margin.css";
+@import "../css/margin/px-axial-x-margin.css";
+@import "../css/margin/px-axial-y-margin.css";
+@import "../css/margin/px-directional-top-margin.css";
+@import "../css/margin/px-directional-bottom-margin.css";
+@import "../css/margin/px-directional-left-margin.css";
+@import "../css/margin/px-directional-right-margin.css";
+
+/* Padding */
+@import "../css/padding/special-padding.css";
+@import "../css/padding/special-axial-padding.css";
+@import "../css/padding/special-directional-padding.css";
+@import "../css/padding/px-padding.css";
+@import "../css/padding/px-axial-x-padding.css";
+@import "../css/padding/px-axial-y-padding.css";
+@import "../css/padding/px-directional-top-padding.css";
+@import "../css/padding/px-directional-bottom-padding.css";
+@import "../css/padding/px-directional-left-padding.css";
+@import "../css/padding/px-directional-right-padding.css";
+
+/* Gap */
+@import "../css/gap/gap.css";
+@import "../css/gap/gap-px.css";
 
 /* Border */
 @import "../css/border/border-color.css";
 @import "../css/border/border-style.css";
 @import "../css/border/border-width.css";
 
+/* Z-index */
+@import "../css/z-index/special-z-index.css";
+@import "../css/z-index/z-index.css";
+@import "../css/z-index/z-index-negative.css";
+
+/* Background */
+@import "../css/background/background.css";
+@import "../css/background/bg-dot.css";
+
 /* Others */
 @import "../css/background-color.css";
 @import "../css/background-color-hover.css";
 @import "../css/color.css";
 @import "../css/color-hover.css";
-@import "../css/gap.css";
-@import "../css/margin.css";
-@import "../css/padding.css";
 @import "../css/overflow.css";
 @import "../css/transition.css";
 @import "../css/border-radius.css";
@@ -53,7 +83,6 @@
 @import "../css/position.css";
 @import "../css/opacity.css";
 @import "../css/cursor.css";
-@import "../css/z-index.css";
 @import "../css/object-fit.css";
 
 .text {
@@ -79,11 +108,6 @@
 }
 
 /**********shadow-end**********/
-
-.bg-transparent {
-    background-color: transparent !important;
-    background: transparent !important;
-}
 
 .outline-none {
     outline: none;

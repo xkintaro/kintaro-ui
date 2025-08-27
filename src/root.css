@@ -12,6 +12,9 @@
   --kintaro-color-3: rgb(46, 47, 51);
   --kintaro-color-3-transparent: rgb(46, 47, 51, 0.5);
 
+  --kintaro-color-4: rgb(46, 47, 51); /*only inputs*/
+  --kintaro-color-4-transparent: rgb(46, 47, 51, 0.5);
+
   /* Text Colors */
   --kintaro-text-color-1: rgb(255, 255, 255);
   --kintaro-text-color-1-transparent: rgb(255, 255, 255, 0.5);
@@ -26,7 +29,6 @@
   --kintaro-hover: rgb(77, 77, 77);
   --kintaro-active: rgb(57, 57, 57);
   --kintaro-border: rgb(77, 77, 77);
-  --kintaro-input-color: rgb(46, 47, 51);
 
   /* System Colors */
   --kintaro-accent-color: rgb(90, 150, 250);

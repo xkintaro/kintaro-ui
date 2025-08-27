@@ -1,0 +1,23 @@
+.bg-dot-xs {
+    background: radial-gradient(circle at center, hsla(0, 0%, 100%, .05) 1px, transparent 0) 0 0 /4px 4px, linear-gradient(90deg, hsla(0, 0%, 100%, .05), transparent) !important;
+}
+
+.bg-dot-sm {
+    background: radial-gradient(circle at center, hsla(0, 0%, 100%, .05) 1px, transparent 0) 0 0 /8px 8px, linear-gradient(90deg, hsla(0, 0%, 100%, .05), transparent) !important;
+}
+
+.bg-dot-md {
+    background: radial-gradient(circle at center, hsla(0, 0%, 100%, .10) 1px, transparent 0) 0 0 /16px 16px, linear-gradient(90deg, hsla(0, 0%, 100%, .05), transparent) !important;
+}
+
+.bg-dot-lg {
+    background: radial-gradient(circle at center, hsla(0, 0%, 100%, .10) 1px, transparent 0) 0 0 /24px 24px, linear-gradient(90deg, hsla(0, 0%, 100%, .05), transparent) !important;
+}
+
+.bg-dot-xl {
+    background: radial-gradient(circle at center, hsla(0, 0%, 100%, .15) 1px, transparent 0) 0 0 /32px 32px, linear-gradient(90deg, hsla(0, 0%, 100%, .05), transparent) !important;
+}
+
+.bg-dot-xxl {
+    background: radial-gradient(circle at center, hsla(0, 0%, 100%, .15) 1px, transparent 0) 0 0 /48px 48px, linear-gradient(90deg, hsla(0, 0%, 100%, .05), transparent) !important;
+}

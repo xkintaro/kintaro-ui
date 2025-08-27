@@ -24,110 +24,110 @@
     justify-content: space-evenly !important;
 }
 
-/**********justify-content-media**********/
+/********** justify-content-media **********/
 
 @media (max-width: 576px) {
-    [class*="media-xs:justify-start"] {
+    .media-xs\:justify-start {
         justify-content: flex-start !important;
     }
 
-    [class*="media-xs:justify-end"] {
+    .media-xs\:justify-end {
         justify-content: flex-end !important;
     }
 
-    [class*="media-xs:justify-center"] {
+    .media-xs\:justify-center {
         justify-content: center !important;
     }
 
-    [class*="media-xs:justify-between"] {
+    .media-xs\:justify-between {
         justify-content: space-between !important;
     }
 
-    [class*="media-xs:justify-around"] {
+    .media-xs\:justify-around {
         justify-content: space-around !important;
     }
 
-    [class*="media-xs:justify-evenly"] {
+    .media-xs\:justify-evenly {
         justify-content: space-evenly !important;
     }
 }
 
 @media (max-width: 768px) {
-    [class*="media-sm:justify-start"] {
+    .media-sm\:justify-start {
         justify-content: flex-start !important;
     }
 
-    [class*="media-sm:justify-end"] {
+    .media-sm\:justify-end {
         justify-content: flex-end !important;
     }
 
-    [class*="media-sm:justify-center"] {
+    .media-sm\:justify-center {
         justify-content: center !important;
     }
 
-    [class*="media-sm:justify-between"] {
+    .media-sm\:justify-between {
         justify-content: space-between !important;
     }
 
-    [class*="media-sm:justify-around"] {
+    .media-sm\:justify-around {
         justify-content: space-around !important;
     }
 
-    [class*="media-sm:justify-evenly"] {
+    .media-sm\:justify-evenly {
         justify-content: space-evenly !important;
     }
 }
 
 @media (max-width: 992px) {
-    [class*="media-md:justify-start"] {
+    .media-md\:justify-start {
         justify-content: flex-start !important;
     }
 
-    [class*="media-md:justify-end"] {
+    .media-md\:justify-end {
         justify-content: flex-end !important;
     }
 
-    [class*="media-md:justify-center"] {
+    .media-md\:justify-center {
         justify-content: center !important;
     }
 
-    [class*="media-md:justify-between"] {
+    .media-md\:justify-between {
         justify-content: space-between !important;
     }
 
-    [class*="media-md:justify-around"] {
+    .media-md\:justify-around {
         justify-content: space-around !important;
     }
 
-    [class*="media-md:justify-evenly"] {
+    .media-md\:justify-evenly {
         justify-content: space-evenly !important;
     }
 }
 
 @media (max-width: 1200px) {
-    [class*="media-lg:justify-start"] {
+    .media-lg\:justify-start {
         justify-content: flex-start !important;
     }
 
-    [class*="media-lg:justify-end"] {
+    .media-lg\:justify-end {
         justify-content: flex-end !important;
     }
 
-    [class*="media-lg:justify-center"] {
+    .media-lg\:justify-center {
         justify-content: center !important;
     }
 
-    [class*="media-lg:justify-between"] {
+    .media-lg\:justify-between {
         justify-content: space-between !important;
     }
 
-    [class*="media-lg:justify-around"] {
+    .media-lg\:justify-around {
         justify-content: space-around !important;
     }
 
-    [class*="media-lg:justify-evenly"] {
+    .media-lg\:justify-evenly {
         justify-content: space-evenly !important;
     }
 }
 
-/**********justify-content-end**********/
+/********** justify-content-media-end **********/

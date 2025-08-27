@@ -1,5 +1,3 @@
-/**********gap**********/
-
 .gap-0 {
     gap: 0 !important;
 }
@@ -27,5 +25,3 @@
 .gap-xxl {
     gap: var(--kintaro-gap-xxl) !important;
 }
-
-/**********gap-end**********/

@@ -1,4 +1,5 @@
-// Kintaro Sama 🌸 - Width % sınıfları + responsive (xs, sm, md, lg) üretici
+const fs = require('fs');
+const path = require('path');
 
 const breakpoints = {
     'xs': 576,
@@ -7,24 +8,29 @@ const breakpoints = {
     'lg': 1200
 };
 
-let css = '/********** width percentage special **********/\n\n';
+let css = '';
 
-// Default width % sınıfları
-for (let i = 1; i <= 100; i++) {
-    css += `.w-${i}p { width: ${i}% !important; }\n`;
+for (let i = 1; i <= 1000; i++) {
+    css += `.z-n${i} { z-index: -${i} !important; }\n`;
 }
 
 css += '\n';
 
-// Breakpoint responsive sınıfları
-for (const [prefix, maxWidth] of Object.entries(breakpoints)) {
-    css += `@media (max-width: ${maxWidth}px) {\n`;
-    for (let i = 1; i <= 100; i++) {
-        css += `  .media-${prefix}\\:w-${i}p { width: ${i}% !important; }\n`;
+for (const [prefix, x] of Object.entries(breakpoints)) {
+    css += `@media (max-width: ${x}px) {\n`;
+    for (let i = 1; i <= 1000; i++) {
+        css += `  .media-${prefix}\\:z-n${i} { z-index: -${i} !important; }\n`;
     }
     css += '}\n\n';
 }
 
-css += '/********** width percentage special end **********/';
+const fileName = 'x.css';
+const filePath = path.join(__dirname, fileName);
 
-console.log(css);
+fs.writeFile(filePath, css, (err) => {
+    if (err) {
+        console.error('error:', err);
+        return;
+    }
+    console.log(`success ${filePath}`);
+});

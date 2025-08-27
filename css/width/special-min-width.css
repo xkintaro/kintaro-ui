@@ -1,6 +1,3 @@
-/********** min-width special **********/
-
-/* Default Min-Width Classes */
 .min-w-0 {
     min-width: 0 !important;
 }
@@ -25,7 +22,6 @@
     min-width: min-content !important;
 }
 
-/********** xs (≤576px) **********/
 @media (max-width: 576px) {
     .media-xs\:min-w-0 {
         min-width: 0 !important;
@@ -52,7 +48,6 @@
     }
 }
 
-/********** sm (≤768px) **********/
 @media (max-width: 768px) {
     .media-sm\:min-w-0 {
         min-width: 0 !important;
@@ -79,7 +74,6 @@
     }
 }
 
-/********** md (≤992px) **********/
 @media (max-width: 992px) {
     .media-md\:min-w-0 {
         min-width: 0 !important;
@@ -106,7 +100,6 @@
     }
 }
 
-/********** lg (≤1200px) **********/
 @media (max-width: 1200px) {
     .media-lg\:min-w-0 {
         min-width: 0 !important;
@@ -132,5 +125,3 @@
         min-width: min-content !important;
     }
 }
-
-/********** min-width special end **********/

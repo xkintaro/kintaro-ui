@@ -2,7 +2,7 @@
     font-size: var(--kintaro-font-md);
     color: var(--kintaro-text-color-1);
     border-radius: var(--kintaro-border-radius-1);
-    background: var(--kintaro-input-color);
+    background: var(--kintaro-color-4);
     resize: vertical;
     outline: none;
     border: none;

@@ -20,94 +20,94 @@
     align-items: stretch !important;
 }
 
-/**********align-items-media**********/
+/********** align-items-media **********/
 
 @media (max-width: 576px) {
-    [class*="media-xs:items-start"] {
+    .media-xs\:items-start {
         align-items: flex-start !important;
     }
 
-    [class*="media-xs:items-end"] {
+    .media-xs\:items-end {
         align-items: flex-end !important;
     }
 
-    [class*="media-xs:items-center"] {
+    .media-xs\:items-center {
         align-items: center !important;
     }
 
-    [class*="media-xs:items-baseline"] {
+    .media-xs\:items-baseline {
         align-items: baseline !important;
     }
 
-    [class*="media-xs:items-stretch"] {
+    .media-xs\:items-stretch {
         align-items: stretch !important;
     }
 }
 
 @media (max-width: 768px) {
-    [class*="media-sm:items-start"] {
+    .media-sm\:items-start {
         align-items: flex-start !important;
     }
 
-    [class*="media-sm:items-end"] {
+    .media-sm\:items-end {
         align-items: flex-end !important;
     }
 
-    [class*="media-sm:items-center"] {
+    .media-sm\:items-center {
         align-items: center !important;
     }
 
-    [class*="media-sm:items-baseline"] {
+    .media-sm\:items-baseline {
         align-items: baseline !important;
     }
 
-    [class*="media-sm:items-stretch"] {
+    .media-sm\:items-stretch {
         align-items: stretch !important;
     }
 }
 
 @media (max-width: 992px) {
-    [class*="media-md:items-start"] {
+    .media-md\:items-start {
         align-items: flex-start !important;
     }
 
-    [class*="media-md:items-end"] {
+    .media-md\:items-end {
         align-items: flex-end !important;
     }
 
-    [class*="media-md:items-center"] {
+    .media-md\:items-center {
         align-items: center !important;
     }
 
-    [class*="media-md:items-baseline"] {
+    .media-md\:items-baseline {
         align-items: baseline !important;
     }
 
-    [class*="media-md:items-stretch"] {
+    .media-md\:items-stretch {
         align-items: stretch !important;
     }
 }
 
 @media (max-width: 1200px) {
-    [class*="media-lg:items-start"] {
+    .media-lg\:items-start {
         align-items: flex-start !important;
     }
 
-    [class*="media-lg:items-end"] {
+    .media-lg\:items-end {
         align-items: flex-end !important;
     }
 
-    [class*="media-lg:items-center"] {
+    .media-lg\:items-center {
         align-items: center !important;
     }
 
-    [class*="media-lg:items-baseline"] {
+    .media-lg\:items-baseline {
         align-items: baseline !important;
     }
 
-    [class*="media-lg:items-stretch"] {
+    .media-lg\:items-stretch {
         align-items: stretch !important;
     }
 }
 
-/**********align-items-end**********/
+/********** align-items-media-end **********/
