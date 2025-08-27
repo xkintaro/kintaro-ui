@@ -63,8 +63,8 @@
 @import "../css/z-index/z-index-negative.css";
 
 /* Background */
-@import "../css/background/background.css";
 @import "../css/background/bg-dot.css";
+@import "../css/background/background.css";
 
 /* Others */
 @import "../css/background-color.css";
