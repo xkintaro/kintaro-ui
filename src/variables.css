@@ -85,18 +85,6 @@
 @import "../css/cursor.css";
 @import "../css/object-fit.css";
 
-.text {
-    color: var(--kintaro-text-color-2);
-    font-size: var(--kintaro-font-md);
-    text-shadow: var(--kintaro-text-shadow);
-}
-
-.text-primary {
-    color: var(--kintaro-text-color-1);
-    font-size: var(--kintaro-font-md);
-    text-shadow: var(--kintaro-text-shadow);
-}
-
 /**********shadow**********/
 
 .box-shadow {
