@@ -1,5 +1,3 @@
-/**********overflow**********/
-
 .overflow-auto {
     overflow: auto !important;
 }
@@ -24,4 +22,106 @@
     overflow-y: auto !important;
 }
 
-/**********overflow-end**********/
+@media (max-width: 576px) {
+    .media-xs\:overflow-auto {
+        overflow: auto !important;
+    }
+
+    .media-xs\:overflow-hidden {
+        overflow: hidden !important;
+    }
+
+    .media-xs\:overflow-visible {
+        overflow: visible !important;
+    }
+
+    .media-xs\:overflow-scroll {
+        overflow: scroll !important;
+    }
+
+    .media-xs\:overflow-x-auto {
+        overflow-x: auto !important;
+    }
+
+    .media-xs\:overflow-y-auto {
+        overflow-y: auto !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .media-sm\:overflow-auto {
+        overflow: auto !important;
+    }
+
+    .media-sm\:overflow-hidden {
+        overflow: hidden !important;
+    }
+
+    .media-sm\:overflow-visible {
+        overflow: visible !important;
+    }
+
+    .media-sm\:overflow-scroll {
+        overflow: scroll !important;
+    }
+
+    .media-sm\:overflow-x-auto {
+        overflow-x: auto !important;
+    }
+
+    .media-sm\:overflow-y-auto {
+        overflow-y: auto !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .media-md\:overflow-auto {
+        overflow: auto !important;
+    }
+
+    .media-md\:overflow-hidden {
+        overflow: hidden !important;
+    }
+
+    .media-md\:overflow-visible {
+        overflow: visible !important;
+    }
+
+    .media-md\:overflow-scroll {
+        overflow: scroll !important;
+    }
+
+    .media-md\:overflow-x-auto {
+        overflow-x: auto !important;
+    }
+
+    .media-md\:overflow-y-auto {
+        overflow-y: auto !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .media-lg\:overflow-auto {
+        overflow: auto !important;
+    }
+
+    .media-lg\:overflow-hidden {
+        overflow: hidden !important;
+    }
+
+    .media-lg\:overflow-visible {
+        overflow: visible !important;
+    }
+
+    .media-lg\:overflow-scroll {
+        overflow: scroll !important;
+    }
+
+    .media-lg\:overflow-x-auto {
+        overflow-x: auto !important;
+    }
+
+    .media-lg\:overflow-y-auto {
+        overflow-y: auto !important;
+    }
+}
