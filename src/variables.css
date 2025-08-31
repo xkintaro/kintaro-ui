@@ -52,6 +52,56 @@
 @import "../css/gap/gap.css";
 @import "../css/gap/gap-px.css";
 
+/* Top */
+@import "../css/top/px-top.css";
+@import "../css/top/px-top-negative.css";
+@import "../css/top/special-top.css";
+@import "../css/top/percent-top.css";
+@import "../css/top/percent-top-negative.css";
+
+/* Bottom */
+@import "../css/bottom/px-bottom.css";
+@import "../css/bottom/px-bottom-negative.css";
+@import "../css/bottom/special-bottom.css";
+@import "../css/bottom/percent-bottom.css";
+@import "../css/bottom/percent-bottom-negative.css";
+
+/* Left */
+@import "../css/left/px-left.css";
+@import "../css/left/px-left-negative.css";
+@import "../css/left/special-left.css";
+@import "../css/left/percent-left.css";
+@import "../css/left/percent-left-negative.css";
+
+/* Right */
+@import "../css/right/px-right.css";
+@import "../css/right/px-right-negative.css";
+@import "../css/right/special-right.css";
+@import "../css/right/percent-right.css";
+@import "../css/right/percent-right-negative.css";
+
+/* Transform Rotate */
+@import "../css/transform/rotate/rotate.css";
+@import "../css/transform/rotate/rotate-negative.css";
+
+/* Transform Scale */
+@import "../css/transform/scale/scale.css";
+
+/* Transform Translate */
+@import "../css/transform/translate/special-translate.css";
+@import "../css/transform/translate/percent-translate.css";
+@import "../css/transform/translate/percent-translate-negative.css";
+@import "../css/transform/translate/percent-translate-x.css";
+@import "../css/transform/translate/percent-translate-x-negative.css";
+@import "../css/transform/translate/percent-translate-y.css";
+@import "../css/transform/translate/percent-translate-y-negative.css";
+@import "../css/transform/translate/px-translate.css";
+@import "../css/transform/translate/px-translate-negative.css";
+@import "../css/transform/translate/px-translate-x.css";
+@import "../css/transform/translate/px-translate-x-negative.css";
+@import "../css/transform/translate/px-translate-y.css";
+@import "../css/transform/translate/px-translate-y-negative.css";
+
 /* Border */
 @import "../css/border/border-color.css";
 @import "../css/border/border-style.css";
@@ -99,12 +149,4 @@
 
 .outline-none {
     outline: none;
-}
-
-.top-0 {
-    top: 0;
-}
-
-.left-0 {
-    left: 0;
 }

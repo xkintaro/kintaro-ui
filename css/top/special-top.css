@@ -1,0 +1,127 @@
+.top-0 {
+    top: 0 !important;
+}
+
+.top-auto {
+    top: auto !important;
+}
+
+.top-initial {
+    top: initial !important;
+}
+
+.top-inherit {
+    top: inherit !important;
+}
+
+.top-unset {
+    top: unset !important;
+}
+
+.top-revert {
+    top: revert !important;
+}
+
+@media (max-width: 576px) {
+    .media-xs\:top-0 {
+        top: 0 !important;
+    }
+
+    .media-xs\:top-auto {
+        top: auto !important;
+    }
+
+    .media-xs\:top-initial {
+        top: initial !important;
+    }
+
+    .media-xs\:top-inherit {
+        top: inherit !important;
+    }
+
+    .media-xs\:top-unset {
+        top: unset !important;
+    }
+
+    .media-xs\:top-revert {
+        top: revert !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .media-sm\:top-0 {
+        top: 0 !important;
+    }
+
+    .media-sm\:top-auto {
+        top: auto !important;
+    }
+
+    .media-sm\:top-initial {
+        top: initial !important;
+    }
+
+    .media-sm\:top-inherit {
+        top: inherit !important;
+    }
+
+    .media-sm\:top-unset {
+        top: unset !important;
+    }
+
+    .media-sm\:top-revert {
+        top: revert !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .media-md\:top-0 {
+        top: 0 !important;
+    }
+
+    .media-md\:top-auto {
+        top: auto !important;
+    }
+
+    .media-md\:top-initial {
+        top: initial !important;
+    }
+
+    .media-md\:top-inherit {
+        top: inherit !important;
+    }
+
+    .media-md\:top-unset {
+        top: unset !important;
+    }
+
+    .media-md\:top-revert {
+        top: revert !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .media-lg\:top-0 {
+        top: 0 !important;
+    }
+
+    .media-lg\:top-auto {
+        top: auto !important;
+    }
+
+    .media-lg\:top-initial {
+        top: initial !important;
+    }
+
+    .media-lg\:top-inherit {
+        top: inherit !important;
+    }
+
+    .media-lg\:top-unset {
+        top: unset !important;
+    }
+
+    .media-lg\:top-revert {
+        top: revert !important;
+    }
+}

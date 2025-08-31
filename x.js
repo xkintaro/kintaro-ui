@@ -9,17 +9,21 @@ const breakpoints = {
 };
 
 let css = '';
+let customClassVarible = 'translate';
+let classVarible = 'transform';
 
-for (let i = 1; i <= 1000; i++) {
-    css += `.z-n${i} { z-index: -${i} !important; }\n`;
+for (let i = 1; i <= 1024; i++) {
+    css += `.${customClassVarible}-${i}px { ${classVarible}: translate(${i}px, ${i}px) !important; }\n`;
+    css += `.hover\\:${customClassVarible}-${i}px:hover { ${classVarible}: translate(${i}px, ${i}px) !important; }\n`;
 }
 
 css += '\n';
 
 for (const [prefix, x] of Object.entries(breakpoints)) {
     css += `@media (max-width: ${x}px) {\n`;
-    for (let i = 1; i <= 1000; i++) {
-        css += `  .media-${prefix}\\:z-n${i} { z-index: -${i} !important; }\n`;
+    for (let i = 1; i <= 1024; i++) {
+        css += `  .media-${prefix}\\:${customClassVarible}-${i}px { ${classVarible}: translate(${i}px, ${i}px) !important; }\n`;
+        css += `  .media-${prefix}\\:hover\\:${customClassVarible}-${i}px:hover { ${classVarible}: translate(${i}px, ${i}px) !important; }\n`;
     }
     css += '}\n\n';
 }

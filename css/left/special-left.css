@@ -1,0 +1,127 @@
+.left-0 {
+    left: 0 !important;
+}
+
+.left-auto {
+    left: auto !important;
+}
+
+.left-initial {
+    left: initial !important;
+}
+
+.left-inherit {
+    left: inherit !important;
+}
+
+.left-unset {
+    left: unset !important;
+}
+
+.left-revert {
+    left: revert !important;
+}
+
+@media (max-width: 576px) {
+    .media-xs\:left-0 {
+        left: 0 !important;
+    }
+
+    .media-xs\:left-auto {
+        left: auto !important;
+    }
+
+    .media-xs\:left-initial {
+        left: initial !important;
+    }
+
+    .media-xs\:left-inherit {
+        left: inherit !important;
+    }
+
+    .media-xs\:left-unset {
+        left: unset !important;
+    }
+
+    .media-xs\:left-revert {
+        left: revert !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .media-sm\:left-0 {
+        left: 0 !important;
+    }
+
+    .media-sm\:left-auto {
+        left: auto !important;
+    }
+
+    .media-sm\:left-initial {
+        left: initial !important;
+    }
+
+    .media-sm\:left-inherit {
+        left: inherit !important;
+    }
+
+    .media-sm\:left-unset {
+        left: unset !important;
+    }
+
+    .media-sm\:left-revert {
+        left: revert !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .media-md\:left-0 {
+        left: 0 !important;
+    }
+
+    .media-md\:left-auto {
+        left: auto !important;
+    }
+
+    .media-md\:left-initial {
+        left: initial !important;
+    }
+
+    .media-md\:left-inherit {
+        left: inherit !important;
+    }
+
+    .media-md\:left-unset {
+        left: unset !important;
+    }
+
+    .media-md\:left-revert {
+        left: revert !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .media-lg\:left-0 {
+        left: 0 !important;
+    }
+
+    .media-lg\:left-auto {
+        left: auto !important;
+    }
+
+    .media-lg\:left-initial {
+        left: initial !important;
+    }
+
+    .media-lg\:left-inherit {
+        left: inherit !important;
+    }
+
+    .media-lg\:left-unset {
+        left: unset !important;
+    }
+
+    .media-lg\:left-revert {
+        left: revert !important;
+    }
+}
