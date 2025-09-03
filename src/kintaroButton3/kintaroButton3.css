@@ -1,12 +1,12 @@
 .kintaro-button-3 {
-    color: var(--kintaro-text-color-1);
-    background: var(--kintaro-color-4);
-    font-size: var(--kintaro-font-sm);
+    color: var(--text-1);
+    background: var(--color-4);
+    font-size: var(--font-sm);
     padding: 0.5rem 1rem;
     border-radius: 35px;
     cursor: pointer;
 }
 
 .kintaro-button-3:hover {
-    background: var(--kintaro-custom-hover, var(--kintaro-hover)) !important;
+    background: var(--kintaro-custom-hover, var(--hover)) !important;
 }

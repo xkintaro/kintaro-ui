@@ -1,7 +1,7 @@
 .kintaro-txtbox-3 {
-    font-size: var(--kintaro-font-md);
-    color: var(--kintaro-text-color-1);
-    border-radius: var(--kintaro-border-radius-1);
+    font-size: var(--font-md);
+    color: var(--text-1);
+    border-radius: var(--border-radius-1);
     background: transparent;
     resize: vertical;
     outline: none;
@@ -14,8 +14,8 @@
 }
 
 .kintaro-txtbox-3-label {
-    color: var(--kintaro-text-color-2);
-    font-size: var(--kintaro-font-md);
+    color: var(--text-2);
+    font-size: var(--font-md);
     position: absolute;
     pointer-events: none;
     user-select: none;
@@ -27,8 +27,8 @@
 }
 
 .kintaro-txtbox-3-icon {
-    transition: var(--kintaro-transition-1);
-    color: var(--kintaro-text-color-1);
+    transition: var(--transition-1);
+    color: var(--text-1);
     width: 24px;
     height: 24px;
     margin: 15px;
@@ -38,17 +38,17 @@
 }
 
 .kintaro-txtbox-3-icon:hover {
-    color: var(--kintaro-accent-color);
+    color: var(--accent-color);
 }
 
 .kintaro-txtbox-3:focus+.kintaro-txtbox-3-label {
-    color: var(--kintaro-accent-color);
-    font-size: var(--kintaro-font-sm);
+    color: var(--accent-color);
+    font-size: var(--font-sm);
     top: 15px;
 }
 
 .kintaro-txtbox-3:not(:placeholder-shown)+.kintaro-txtbox-3-label {
-    font-size: var(--kintaro-font-sm);
+    font-size: var(--font-sm);
     top: 15px;
 }
 

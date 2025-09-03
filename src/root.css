@@ -1,72 +1,78 @@
-@import "./variables.css";
 @import "./reset.css";
 
 :root {
   /* Main Colors */
-  --kintaro-color-1: rgb(24, 26, 30);
-  --kintaro-color-1-transparent: rgb(24, 26, 30, 0.5);
+  --color-1: rgb(24, 26, 30);
+  --color-1-transparent: rgb(24, 26, 30, 0.5);
 
-  --kintaro-color-2: rgb(35, 36, 39);
-  --kintaro-color-2-transparent: rgb(35, 36, 39, 0.5);
+  --color-2: rgb(35, 36, 39);
+  --color-2-transparent: rgb(35, 36, 39, 0.5);
 
-  --kintaro-color-3: rgb(46, 47, 51);
-  --kintaro-color-3-transparent: rgb(46, 47, 51, 0.5);
+  --color-3: rgb(46, 47, 51);
+  --color-3-transparent: rgb(46, 47, 51, 0.5);
 
-  --kintaro-color-4: rgb(46, 47, 51);
   /*only inputs*/
-  --kintaro-color-4-transparent: rgb(46, 47, 51, 0.5);
+  --color-4: rgb(46, 47, 51);
+  --color-4-transparent: rgb(46, 47, 51, 0.5);
 
   /* Text Colors */
-  --kintaro-text-color-1: rgb(255, 255, 255);
-  --kintaro-text-color-1-transparent: rgb(255, 255, 255, 0.5);
+  --text-1: rgb(255, 255, 255);
+  --text-1-transparent: rgb(255, 255, 255, 0.5);
 
-  --kintaro-text-color-2: rgb(170, 170, 170);
-  --kintaro-text-color-2-transparent: rgb(170, 170, 170, 0.5);
+  --text-2: rgb(170, 170, 170);
+  --text-2-transparent: rgb(170, 170, 170, 0.5);
 
-  --kintaro-text-color-disabled: rgb(110, 110, 110);
-  --kintaro-text-color-disabled-transparent: rgb(110, 110, 110, 0.5);
+  --text-disabled: rgb(110, 110, 110);
+  --text-disabled-transparent: rgb(110, 110, 110, 0.5);
 
   /* Interactive Colors */
-  --kintaro-hover: rgb(77, 77, 77);
-  --kintaro-active: rgb(57, 57, 57);
-  --kintaro-border: rgb(77, 77, 77);
+  --hover: rgb(80, 80, 80);
+  --active: rgb(100, 100, 100);
+  --border: rgb(80, 80, 80);
 
   /* System Colors */
-  --kintaro-accent-color: rgb(90, 150, 250);
-  --kintaro-accent-color-transparent: rgb(90, 150, 250, 0.5);
+  --accent-color: rgb(90, 150, 250);
+  --accent-color-transparent: rgb(90, 150, 250, 0.5);
 
-  --kintaro-success-color: rgb(0, 200, 80);
-  --kintaro-success-color-transparent: rgb(0, 200, 80, 0.5);
+  --success-color: rgb(0, 200, 80);
+  --success-color-transparent: rgb(0, 200, 80, 0.5);
 
-  --kintaro-warning-color: rgb(255, 170, 0);
-  --kintaro-warning-color-transparent: rgb(255, 170, 0, 0.5);
+  --warning-color: rgb(255, 170, 0);
+  --warning-color-transparent: rgb(255, 170, 0, 0.5);
 
-  --kintaro-error-color: rgb(200, 0, 0);
-  --kintaro-error-color-transparent: rgb(200, 0, 0, 0.5);
+  --error-color: rgb(200, 0, 0);
+  --error-color-transparent: rgb(200, 0, 0, 0.5);
 
-  --kintaro-font-xs: clamp(10px, 2vw, 12px);
-  --kintaro-font-sm: clamp(12px, 2.2vw, 14px);
-  --kintaro-font-md: clamp(14px, 2.5vw, 16px);
-  --kintaro-font-lg: clamp(16px, 3vw, 20px);
-  --kintaro-font-xl: clamp(20px, 4vw, 26px);
-  --kintaro-font-xxl: clamp(26px, 5vw, 32px);
+  --font-xs: clamp(10px, 2vw, 12px);
+  --font-sm: clamp(12px, 2.2vw, 14px);
+  --font-md: clamp(14px, 2.5vw, 16px);
+  --font-lg: clamp(16px, 3vw, 20px);
+  --font-xl: clamp(20px, 4vw, 26px);
+  --font-2xl: clamp(26px, 5vw, 32px);
+  --font-3xl: clamp(32px, 6vw, 40px);
+  --font-4xl: clamp(40px, 7vw, 48px);
+  --font-5xl: clamp(48px, 8vw, 56px);
+  --font-6xl: clamp(56px, 9vw, 64px);
+  --font-7xl: clamp(64px, 10vw, 72px);
+  --font-8xl: clamp(72px, 11vw, 80px);
+  --font-9xl: clamp(80px, 12vw, 88px);
 
-  --kintaro-gap-xs: 0.5rem;
-  --kintaro-gap-sm: clamp(0.5rem, 1.5vw, 1rem);
-  --kintaro-gap-md: clamp(0.75rem, 2vw, 1.5rem);
-  --kintaro-gap-lg: clamp(1rem, 3vw, 2rem);
-  --kintaro-gap-xl: clamp(1.5rem, 4vw, 3rem);
-  --kintaro-gap-xxl: clamp(2rem, 5vw, 4rem);
+  --gap-xs: 0.5rem;
+  --gap-sm: clamp(0.5rem, 1.5vw, 1rem);
+  --gap-md: clamp(0.75rem, 2vw, 1.5rem);
+  --gap-lg: clamp(1rem, 3vw, 2rem);
+  --gap-xl: clamp(1.5rem, 4vw, 3rem);
+  --gap-2xl: clamp(2rem, 5vw, 4rem);
 
-  --kintaro-font-weight: 500;
+  --font-weight: 500;
 
-  --kintaro-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  --kintaro-text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  --text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 
-  --kintaro-transition-1: all 0.3s ease-in-out;
-  --kintaro-border-radius-1: 10px;
+  --transition-1: all 0.3s ease-in-out;
+  --border-radius-1: 10px;
 
-  --kintaro-animation-fadeup: fadeUp 0.3s ease-out;
+  --animation-fadeup: fadeUp 0.3s ease-out;
 
   --popup-z-index: 999;
   --audio-player-z-index: 998;
@@ -89,20 +95,4 @@
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-/**********animation**********/
-
-.animate-fadeup {
-  animation: var(--kintaro-animation-fadeup);
-}
-
-/**********animation-end**********/
-
-.navbar-z-index {
-  z-index: var(--navbar-z-index) !important;
-}
-
-.navbar-height {
-  height: var(--navbar-height) !important;
 }

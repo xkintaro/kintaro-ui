@@ -19,10 +19,10 @@
 }
 
 .kintaro-audio-player-button {
-    color: var(--kintaro-text-color-1);
-    box-shadow: var(--kintaro-box-shadow);
-    transition: var(--kintaro-transition-1);
-    background: linear-gradient(135deg, var(--kintaro-accent-color), var(--kintaro-accent-color-transparent));
+    color: var(--text-1);
+    box-shadow: var(--box-shadow);
+    transition: var(--transition-1);
+    background: linear-gradient(135deg, var(--accent-color), var(--accent-color-transparent));
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,8 +32,8 @@
     height: 50px;
     border-radius: 50%;
     position: absolute;
-    bottom: var(--kintaro-gap-lg);
-    right: var(--kintaro-gap-lg);
+    bottom: var(--gap-lg);
+    right: var(--gap-lg);
 }
 
 .kintaro-audio-player-button:hover {
@@ -52,31 +52,31 @@
 }
 
 .kintaro-audio-player-box {
-    background: var(--kintaro-color-1);
-    border-radius: var(--kintaro-border-radius-1);
-    color: var(--kintaro-text-color-1);
-    box-shadow: var(--kintaro-box-shadow);
-    border: 1px solid var(--kintaro-border);
+    background: var(--color-1);
+    border-radius: var(--border-radius-1);
+    color: var(--text-1);
+    box-shadow: var(--box-shadow);
+    border: 1px solid var(--border);
     overflow: hidden;
     width: 520px;
     position: absolute;
-    bottom: var(--kintaro-gap-lg);
-    right: var(--kintaro-gap-lg);
+    bottom: var(--gap-lg);
+    right: var(--gap-lg);
     z-index: calc(var(--audio-player-z-index) + 2);
 }
 
 .kintaro-audio-player-box-header {
-    border-bottom: 1px solid var(--kintaro-border);
+    border-bottom: 1px solid var(--border);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: var(--kintaro-gap-xs) var(--kintaro-gap-md);
+    padding: var(--gap-xs) var(--gap-md);
 }
 
 .kintaro-audio-player-box-main {
-    gap: var(--kintaro-gap-sm);
+    gap: var(--gap-sm);
     display: flex;
-    padding: var(--kintaro-gap-md);
+    padding: var(--gap-md);
 }
 
 .kintaro-audio-player-box-main-left {
@@ -84,18 +84,18 @@
 }
 
 .kintaro-audio-player-logo {
-    border-radius: var(--kintaro-border-radius-1);
-    background: linear-gradient(135deg, var(--kintaro-accent-color), var(--kintaro-accent-color-transparent));
+    border-radius: var(--border-radius-1);
+    background: linear-gradient(135deg, var(--accent-color), var(--accent-color-transparent));
     display: flex;
     align-items: center;
     justify-content: center;
     width: 120px;
     height: 120px;
-    box-shadow: var(--kintaro-box-shadow);
+    box-shadow: var(--box-shadow);
 }
 
 .kintaro-audio-player-album-image {
-    border-radius: var(--kintaro-border-radius-1);
+    border-radius: var(--border-radius-1);
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -112,8 +112,8 @@
 }
 
 .song-artist {
-    font-size: var(--kintaro-font-sm);
-    color: var(--kintaro-text-color-2);
+    font-size: var(--font-sm);
+    color: var(--text-2);
     user-select: none;
 }
 
@@ -138,7 +138,7 @@
 }
 
 .kintaro-audio-player-progress-input::-webkit-slider-thumb {
-    background: linear-gradient(135deg, var(--kintaro-accent-color), var(--kintaro-accent-color-transparent));
+    background: linear-gradient(135deg, var(--accent-color), var(--accent-color-transparent));
     -webkit-appearance: none;
     cursor: pointer;
     height: 14px;
@@ -147,22 +147,22 @@
 }
 
 .kintaro-audio-player-progress-time-display {
-    font-size: var(--kintaro-font-xs);
-    color: var(--kintaro-text-color-2);
+    font-size: var(--font-xs);
+    color: var(--text-2);
     display: flex;
     justify-content: space-between;
     user-select: none;
 }
 
 .kintaro-audio-player-controls {
-    gap: var(--kintaro-gap-sm);
+    gap: var(--gap-sm);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .kintaro-audio-player-volume-container {
-    gap: var(--kintaro-gap-xs);
+    gap: var(--gap-xs);
     display: flex;
     align-items: center;
     width: 120px;
@@ -179,8 +179,8 @@
 }
 
 .kintaro-audio-player-volume-slider::-webkit-slider-thumb {
-    background: linear-gradient(135deg, var(--kintaro-accent-color), var(--kintaro-accent-color-transparent));
-    transition: var(--kintaro-transition-1);
+    background: linear-gradient(135deg, var(--accent-color), var(--accent-color-transparent));
+    transition: var(--transition-1);
     -webkit-appearance: none;
     cursor: pointer;
     width: 14px;
@@ -189,14 +189,14 @@
 }
 
 .kintaro-audio-player-controls-main {
-    gap: var(--kintaro-gap-xs);
+    gap: var(--gap-xs);
     display: flex;
     align-items: center;
 }
 
 .kintaro-audio-player-control-button {
-    transition: var(--kintaro-transition-1);
-    color: var(--kintaro-text-color-2);
+    transition: var(--transition-1);
+    color: var(--text-2);
     background: none;
     border: none;
     cursor: pointer;
@@ -211,19 +211,19 @@
 }
 
 .kintaro-audio-player-control-button:hover {
-    color: var(--kintaro-text-color-1);
-    background: var(--kintaro-hover);
+    color: var(--text-1);
+    background: var(--hover);
 }
 
 .kintaro-audio-player-control-button.active {
-    color: var(--kintaro-accent-color);
+    color: var(--accent-color);
 }
 
 .kintaro-audio-player-play-pause-button {
-    color: var(--kintaro-text-color-1);
-    transition: var(--kintaro-transition-1);
-    box-shadow: var(--kintaro-box-shadow);
-    background: linear-gradient(135deg, var(--kintaro-accent-color), var(--kintaro-accent-color-transparent));
+    color: var(--text-1);
+    transition: var(--transition-1);
+    box-shadow: var(--box-shadow);
+    background: linear-gradient(135deg, var(--accent-color), var(--accent-color-transparent));
     border: none;
     display: flex;
     align-items: center;
@@ -243,9 +243,9 @@
 }
 
 .kintaro-audio-player-playlist-item {
-    transition: var(--kintaro-transition-1);
-    gap: var(--kintaro-gap-sm);
-    border-top: 1px solid var(--kintaro-border);
+    transition: var(--transition-1);
+    gap: var(--gap-sm);
+    border-top: 1px solid var(--border);
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -253,18 +253,18 @@
 }
 
 .kintaro-audio-player-playlist-item:hover {
-    background: var(--kintaro-hover);
+    background: var(--hover);
 }
 
 .kintaro-audio-player-playlist-item-number {
-    color: var(--kintaro-text-color-2);
-    font-size: var(--kintaro-font-sm);
+    color: var(--text-2);
+    font-size: var(--font-sm);
     width: 20px;
 }
 
 .kintaro-audio-player-playlist-item-title {
-    color: var(--kintaro-text-color-1);
-    font-size: var(--kintaro-font-md);
+    color: var(--text-1);
+    font-size: var(--font-md);
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -272,16 +272,16 @@
 }
 
 .kintaro-audio-player-playlist-item-indicator {
-    background: var(--kintaro-accent-color);
+    background: var(--accent-color);
     width: 8px;
     height: 8px;
     border-radius: 50%;
 }
 
 .kintaro-audio-player-error-message {
-    color: var(--kintaro-error-color);
-    font-size: var(--kintaro-font-sm);
-    border-radius: var(--kintaro-border-radius-1);
+    color: var(--error-color);
+    font-size: var(--font-sm);
+    border-radius: var(--border-radius-1);
     background-color: rgba(255, 0, 0, 0.1);
     padding: 6px 10px;
     margin-top: 10px;
@@ -289,7 +289,7 @@
 
 @media (max-width: 768px) {
     .kintaro-audio-player-box {
-        width: calc(100% - (2*var(--kintaro-gap-lg)));
+        width: calc(100% - (2*var(--gap-lg)));
     }
 
     .kintaro-audio-player-box-main {
@@ -303,7 +303,7 @@
 
     .kintaro-audio-player-box-main-right {
         width: 100%;
-        padding: var(--kintaro-gap-md);
+        padding: var(--gap-md);
     }
 
     .kintaro-audio-player-logo {
@@ -327,7 +327,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: linear-gradient(to top, var(--kintaro-color-1), transparent);
+        background: linear-gradient(to top, var(--color-1), transparent);
         pointer-events: none;
     }
 }

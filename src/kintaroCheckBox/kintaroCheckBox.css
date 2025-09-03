@@ -6,8 +6,8 @@
          user-select: none;
          width: 22px;
          height: 22px;
-         transition: var(--kintaro-transition-1);
-         color: var(--kintaro-text-color-2);
+         transition: var(--transition-1);
+         color: var(--text-2);
      }
 
      .kintaro-checkbox {
@@ -24,21 +24,21 @@
          top: 0;
          height: 100%;
          width: 100%;
-         border: 2px solid var(--kintaro-text-color-2);
+         border: 2px solid var(--text-2);
          border-radius: 6px;
-         transition: var(--kintaro-transition-1);
+         transition: var(--transition-1);
          display: flex;
          justify-content: center;
          align-items: center;
      }
 
      .kintaro-checkbox-layout:hover .kintaro-checkmark {
-         border-color: var(--kintaro-accent-color);
+         border-color: var(--accent-color);
      }
 
      .kintaro-checkbox:checked~.kintaro-checkmark {
-         background-color: var(--kintaro-accent-color);
-         border-color: var(--kintaro-accent-color);
+         background-color: var(--accent-color);
+         border-color: var(--accent-color);
          animation: bounce 0.5s;
      }
 

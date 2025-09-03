@@ -1,7 +1,0 @@
-.z-popup {
-    z-index: var(--popup-z-index) !important;
-}
-
-.z-audio-player {
-    z-index: var(--audio-player-z-index) !important;
-}

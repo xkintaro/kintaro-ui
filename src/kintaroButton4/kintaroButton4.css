@@ -1,7 +1,7 @@
 .kintaro-button-4 {
-    color: var(--kintaro-text-color-1);
-    font-size: var(--kintaro-font-md);
-    text-shadow: var(--kintaro-text-shadow);
-    font-weight: var(--kintaro-font-weight);
+    color: var(--text-1);
+    font-size: var(--font-md);
+    text-shadow: var(--text-shadow);
+    font-weight: var(--font-weight);
     padding: 0;
 }

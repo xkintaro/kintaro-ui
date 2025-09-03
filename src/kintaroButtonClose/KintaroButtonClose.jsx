@@ -2,7 +2,7 @@ import './kintaroButtonClose.css';
 
 const KintaroCloseButton = ({
     size = 32,
-    color = 'var(--kintaro-text-color-1)',
+    color = 'var(--text-1)',
     style = {},
     title = 'Close',
     className = '',

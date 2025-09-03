@@ -21,10 +21,10 @@
 }
 
 .kintaro-modal-box {
-    background: var(--kintaro-color-2);
-    border-radius: var(--kintaro-border-radius-1);
-    box-shadow: var(--kintaro-box-shadow);
-    animation: var(--kintaro-animation-fadeup);
+    background: var(--color-2);
+    border-radius: var(--border-radius-1);
+    box-shadow: var(--box-shadow);
+    animation: var(--animation-fadeup);
     position: relative;
     width: 90%;
     max-width: 600px;
@@ -34,20 +34,20 @@
 }
 
 .kintaro-modal-header {
-    padding: var(--kintaro-gap-sm);
+    padding: var(--gap-sm);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid var(--kintaro-color-3);
+    border-bottom: 1px solid var(--color-3);
     flex-shrink: 0;
 }
 
 .kintaro-modal-content {
-    padding: var(--kintaro-gap-sm);
+    padding: var(--gap-sm);
     overflow: auto;
     display: flex;
     flex-direction: column;
-    gap: var(--kintaro-gap-sm);
+    gap: var(--gap-sm);
     flex-grow: 1;
 }
 
@@ -55,6 +55,6 @@
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    gap: var(--kintaro-gap-sm);
+    gap: var(--gap-sm);
     flex-shrink: 0;
 }
