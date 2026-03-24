@@ -42,13 +42,11 @@ const KintaroModal = ({
                     <KintaroTitle2>{title}</KintaroTitle2>
                     <KintaroButtonClose
                         onClick={onClose}
-                        title="Kapat"
+                        title="Close"
                     />
                 </div>
 
-                
-                    {children}
-                 
+                {children}
 
             </div>
         </div >

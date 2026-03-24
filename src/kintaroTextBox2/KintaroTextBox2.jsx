@@ -2,7 +2,7 @@ import './kintaroTextBox2.css';
 
 const KintaroTextBox2 = ({
     width = '100%',
-    title = 'Your text here',
+    title = '',
     disabled = false,
     ...props
 }) => {

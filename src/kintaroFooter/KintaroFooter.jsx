@@ -77,7 +77,7 @@ const KintaroFooter = ({
             <div className="kintaro-footer-content">
                 {sections.map((section, index) => (
                     <div key={index} className="kintaro-footer-section">
-                        <KintaroTitle3 title={section.title} />
+                        <KintaroTitle3>{section.title}</KintaroTitle3>
                         <div className="kintaro-footer-links">
                             {section.links.map((link, linkIndex) => (
                                 <a key={linkIndex} href={link.url} className='kintaro-footer-link'>

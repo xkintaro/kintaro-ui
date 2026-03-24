@@ -3,7 +3,7 @@ import './kintaroTextbox3.css';
 
 const KintaroTextBox3 = ({
     width = '100%',
-    title = 'Your text here',
+    title = '',
     disabled = false,
     ...props
 }) => {

@@ -1,74 +1,74 @@
-     .kintaro-checkbox-layout {
-         position: relative;
-         display: flex;
-         align-items: center;
-         cursor: pointer;
-         user-select: none;
-         width: 22px;
-         height: 22px;
-         transition: var(--transition-1);
-         color: var(--text-2);
-     }
+.kintaro-checkbox-layout {
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    width: 22px;
+    height: 22px;
+    transition: var(--transition-1);
+    color: var(--text-2);
+}
 
-     .kintaro-checkbox {
-         position: absolute;
-         opacity: 0;
-         cursor: pointer;
-         height: 0;
-         width: 0;
-     }
+.kintaro-checkbox {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
 
-     .kintaro-checkmark {
-         position: absolute;
-         left: 0;
-         top: 0;
-         height: 100%;
-         width: 100%;
-         border: 2px solid var(--text-2);
-         border-radius: 6px;
-         transition: var(--transition-1);
-         display: flex;
-         justify-content: center;
-         align-items: center;
-     }
+.kintaro-checkmark {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border: 2px solid var(--text-2);
+    border-radius: 6px;
+    transition: var(--transition-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-     .kintaro-checkbox-layout:hover .kintaro-checkmark {
-         border-color: var(--accent-color);
-     }
+.kintaro-checkbox-layout:hover .kintaro-checkmark {
+    border-color: var(--accent-color);
+}
 
-     .kintaro-checkbox:checked~.kintaro-checkmark {
-         background-color: var(--accent-color);
-         border-color: var(--accent-color);
-         animation: bounce 0.5s;
-     }
+.kintaro-checkbox:checked~.kintaro-checkmark {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    animation: bounce 0.5s;
+}
 
-     .kintaro-checkmark:after {
-         content: "";
-         position: absolute;
-         display: none;
-     }
+.kintaro-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
 
-     .kintaro-checkbox:checked~.kintaro-checkmark:after {
-         display: block;
-     }
+.kintaro-checkbox:checked~.kintaro-checkmark:after {
+    display: block;
+}
 
-     .kintaro-checkbox-layout .kintaro-checkmark:after {
-         width: 5px;
-         height: 10px;
-         border: solid white;
-         border-width: 0 2px 2px 0;
-         transform: rotate(45deg);
-         margin-top: -2px;
-     }
+.kintaro-checkbox-layout .kintaro-checkmark:after {
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    margin-top: -2px;
+}
 
-     @keyframes bounce {
+@keyframes bounce {
 
-         0%,
-         100% {
-             transform: scale(1);
-         }
+    0%,
+    100% {
+        transform: scale(1);
+    }
 
-         50% {
-             transform: scale(1.2);
-         }
-     }
+    50% {
+        transform: scale(1.2);
+    }
+}

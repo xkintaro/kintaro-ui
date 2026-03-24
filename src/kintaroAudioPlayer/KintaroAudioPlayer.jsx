@@ -235,7 +235,7 @@ const KintaroAudioPlayer = ({
                             <button
                                 onClick={handleMinimizePlayer}
                                 className="kintaro-audio-player-control-button"
-                                title="Kapat"
+                                title="Close"
                             >
                                 <FaMinus size={14} />
                             </button>
@@ -260,30 +260,30 @@ const KintaroAudioPlayer = ({
                             <div className="kintaro-audio-player-box-main-right">
                                 <div className="kintaro-audio-player-song-info">
                                     <div className="kintaro-audio-player-song-info-details">
-                                        <KintaroTitle3>{songs[currentSongIndex]?.title || 'Şarkı Seçilmedi'}</KintaroTitle3>
+                                        <KintaroTitle3>{songs[currentSongIndex]?.title || 'No Song Selected'}</KintaroTitle3>
                                         <p className="song-artist">
-                                            {songs[currentSongIndex]?.artist || 'Bilinmeyen Sanatçı'}
+                                            {songs[currentSongIndex]?.artist || 'Unknown Artist'}
                                         </p>
                                     </div>
                                     <div className="kintaro-audio-player-extra-controls">
                                         <button
                                             onClick={toggleShuffled}
                                             className={`kintaro-audio-player-control-button ${isShuffled ? 'active' : ''}`}
-                                            title="Rastgele çal"
+                                            title="Shuffle"
                                         >
                                             <FaRandom size={16} />
                                         </button>
                                         <button
                                             onClick={toggleLooping}
                                             className={`kintaro-audio-player-control-button ${isLooping ? 'active' : ''}`}
-                                            title="Döngü"
+                                            title="Loop"
                                         >
                                             <FaRedo size={16} />
                                         </button>
                                         <button
                                             onClick={() => setShowPlaylist(!showPlaylist)}
                                             className={`kintaro-audio-player-control-button ${showPlaylist ? 'active' : ''}`}
-                                            title="Play List"
+                                            title="Playlist"
                                         >
                                             <FaList size={16} />
                                         </button>
@@ -292,7 +292,7 @@ const KintaroAudioPlayer = ({
 
                                 {audioError && (
                                     <div className="kintaro-audio-player-error-message">
-                                        Bu ses dosyası yüklenemedi. Lütfen farklı bir şarkı seçin.
+                                        This audio file could not be loaded. Please select a different song.
                                     </div>
                                 )}
 
@@ -328,7 +328,7 @@ const KintaroAudioPlayer = ({
                                                 setIsMuted(!isMuted);
                                             }}
                                             className="kintaro-audio-player-control-button"
-                                            title={isMuted ? 'Sesi Aç' : 'Sesi Kapat'}
+                                            title={isMuted ? 'Unmute' : 'Mute'}
                                         >
                                             {isMuted ? <FaVolumeMute size={18} /> : <FaVolumeUp size={18} />}
                                         </button>
@@ -356,7 +356,7 @@ const KintaroAudioPlayer = ({
                                         <button
                                             onClick={handlePrevious}
                                             className="kintaro-audio-player-control-button"
-                                            title="Önceki şarkı"
+                                            title="Previous song"
                                             disabled={songs.length === 0}
                                         >
                                             <FaStepBackward size={18} />
@@ -364,7 +364,7 @@ const KintaroAudioPlayer = ({
                                         <button
                                             onClick={() => setIsPlaying(!isPlaying)}
                                             className="kintaro-audio-player-play-pause-button"
-                                            title={isPlaying ? 'Durdur' : 'Oynat'}
+                                            title={isPlaying ? 'Pause' : 'Play'}
                                             disabled={songs.length === 0}
                                         >
                                             {isPlaying ? <FaPause size={18} /> : <FaPlay size={18} />}
@@ -372,7 +372,7 @@ const KintaroAudioPlayer = ({
                                         <button
                                             onClick={isShuffled ? handleShuffle : handleNext}
                                             className="kintaro-audio-player-control-button"
-                                            title="Sonraki şarkı"
+                                            title="Next song"
                                             disabled={songs.length === 0}
                                         >
                                             <FaStepForward size={18} />

@@ -8,19 +8,16 @@ const KintaroDropDown1 = ({
     onSelect,
     onChange,
     value,
-    selectedValue,  // New prop for controlled selection
+    selectedValue,
     width
 }) => {
     const [isOpen, setIsOpen] = useState(false);
     const dropdownRef = useRef(null);
 
-    // Determine the selected option based on props
     const getSelectedOption = () => {
-        // Priority to selectedValue prop if provided
         if (selectedValue !== undefined) {
             return options.find(option => option.value === selectedValue) || null;
         }
-        // Fallback to value prop (for backward compatibility)
         if (value !== undefined) {
             return options.find(option => option.value === value) || null;
         }
