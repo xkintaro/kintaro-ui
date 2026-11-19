@@ -2,7 +2,8 @@
   "name": "kintaro-ui",
   "main": "src/index.js",
   "license": "MIT",
-  "dependencies": {
-    "kintaro-ui": "github:xkintaro/kintaro-ui"
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-icons": ">=4.0.0"
   }
 }
