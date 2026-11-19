@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './kintaroTextbox3.css';
+import './kintaroTextBox3.css';
 
 const KintaroTextBox3 = ({
     width = '100%',
