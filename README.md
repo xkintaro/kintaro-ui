@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Language-English-blue?style=flat-square&logo=google-translate&logoColor=white" alt="English">
 </a>
 <a href="README-TR.md">
-  <img src="https://img.shields.io/badge/Dil-Türkçe-red?style=flat-square&logo=google-translate&logoColor=white" alt="Türkçe">
+  <img src="https://img.shields.io/badge/Language-Türkçe-red?style=flat-square&logo=google-translate&logoColor=white" alt="Türkçe">
 </a>
 
   <br />
@@ -14,7 +14,7 @@
   <br />
 
   <p>
-    Simple React UI component library.
+     A simple dark themed UI component library for React projects.
   </p>
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -22,9 +22,12 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
 
   <p>
-    <a href="#requirements">Requirements</a> •
-    <a href="#installation">Installation</a> •
-    <a href="#integration">Project Integration</a> •
+    <a href="#warning">Warning</a> •
+    <a href="#demo">Demo</a> •
+    <a href="#about">About</a> •
+    <a href="#features">Features</a> •
+    <a href="#tech">Tech</a> •
+    <a href="#setup">Setup</a> •
     <a href="#license">License</a>
   </p>
 
@@ -32,52 +35,81 @@
   <br />
 </div>
 
-## ⚠️ WARNING
+## <a id="warning"></a> ⚠️ Warning
 
-I actually shared this project a long time ago, but I'm just writing the README file now. I'm not currently continuing this project, and I don't think it makes much sense to use it. However, at one point, I was using this UI library in almost all of my projects. In fact, I've made around 140 commits. I probably won't continue it, but I wanted to write this as a keepsake.
+I actually shared this project a long time ago, but I am only writing the README file now. I am not continuing this project at the moment, and I do not think it makes much sense to use it. However, at one point I was using this UI library in almost all of my projects. In fact, I made around 140 commits. I probably will not continue it, but I wanted to write this as a keepsake.
 
-## 📋 About
+## <a id="demo"></a> 📷 Demo
 
-It is a simple user interface (UI) component library designed with a focus on dark mode, structured with CSS Variables, and developed for use in React projects. 
+- [https://xkintaro.github.io/kintaro-ui-preview/](https://xkintaro.github.io/kintaro-ui-preview/)
 
-## 🛠️ Requirements <a id="requirements"></a>
+## <a id="about"></a> 📋 About
 
-For the components to work smoothly, the following packages must be installed in your project:
-- **React**: v16.8 or higher - for React Hooks support.
-- **react-icons**: required for component icons.
+**Kintaro UI** is a simple component library developed for use in React projects. It is designed with a focus on dark mode, and all colors, spacing and sizes come from CSS variables in a single file, so the look of every component can be changed from one place.
 
-## 🚀 Installation <a id="installation"></a>
+## <a id="features"></a> ✨ Features
 
-### Method 1: Directly via Terminal (Recommended)
-You can install the library directly to your project using the terminal command:
+- **Text boxes**: Three text box styles, one of them a password field with a floating label and a show button.
+- **Buttons**: Four button styles and a close button with disabled state support.
+- **Titles and text**: Three title styles, a description text and a divider.
+- **Form elements**: A checkbox and a dropdown with a selected item mark.
+- **Modal**: A modal window with a title and a close button.
+- **Hero and footer**: A hero section and a footer with social media links.
+- **Loader**: A loading animation.
+- **Audio player**: A music player with a playlist, shuffle, repeat and volume control.
+- **Dark theme**: Colors, spacing and sizes are defined as CSS variables in `root.css`.
 
-```bash
-npm install git+https://github.com/xkintaro/kintaro-ui.git
-```
+## <a id="tech"></a> 🛠️ Tech
 
-### Method 2: Manual Installation via package.json
-You can manually add the library to the `dependencies` field of your `package.json` file:
+`React` · `CSS` · `React Icons`
 
-```json
-"dependencies": {
-  "kintaro-ui": "github:xkintaro/kintaro-ui"
-}
-```
+## <a id="setup"></a> 🚀 Setup
 
-Then install the dependencies:
-```bash
-npm install
-```
+### Requirements
 
-## ⚙️ Project Integration <a id="integration"></a>
+- **React 16.8 or newer**
+- **react-icons**
 
-Components use CSS variables. In order for the components to display correctly and the theme to be active, you need to import the global CSS file at the root entry point of your project (inside `index.js`, `main.jsx`, or `App.jsx`):
+### Step-by-Step Installation
 
-```javascript
-import 'kintaro-ui/src/root.css';
-```
+1. **Install the library**
 
-## 📄 License <a id="license"></a>
+   ```bash
+   npm install git+https://github.com/xkintaro/kintaro-ui.git
+   ```
+
+   You can also add it to the `dependencies` field of your `package.json` file and run `npm install`:
+
+   ```json
+   "dependencies": {
+     "kintaro-ui": "github:xkintaro/kintaro-ui"
+   }
+   ```
+
+2. **Import the global styles**
+
+   Import the global CSS file once at the entry point of your project, such as `main.jsx` or `App.jsx`. The components need these CSS variables to display correctly.
+
+   ```javascript
+   import 'kintaro-ui/src/root.css';
+   ```
+
+3. **Use the components**
+
+   ```jsx
+   import { KintaroButton1, KintaroTextBox1 } from 'kintaro-ui';
+
+   function App() {
+     return (
+       <>
+         <KintaroTextBox1 placeholder="Your name" />
+         <KintaroButton1>Send</KintaroButton1>
+       </>
+     );
+   }
+   ```
+
+## <a id="license"></a> 📄 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
